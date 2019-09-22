@@ -36,20 +36,21 @@ p {text-align:center;}
     margin-top:-80px; 
     margin-right:10px;}
 
-#whitelink {color:white;}
+#whitelink {color:white;
+            text-align: center;}
 
 
 #shade {box-shadow:5px 10px black;}
 
 #wp {text-align: center; 
     font-size: 12px;
-    padding-top:5px; 
+    margin-top:5px; 
     color:white;}
 
 #yp {color:yellow;
     text-align:center; 
     font-size: 11px; 
-    margin-top:-1px;}
+    margin-top:2px;}
 
 #container{width:800px;
     margin-left:180px;
