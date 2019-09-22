@@ -8,9 +8,8 @@ header {border-radius: 10px;
 
 footer {border-radius: 10px; 
         height:75px; 
-        padding-top:15px; 
+        padding:auto; 
         color:white;
-        text-align:center;
         background-color:#32b5aa;}
 
 h2 {border-bottom:2px; 
