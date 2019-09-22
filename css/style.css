@@ -40,12 +40,10 @@ p {text-align:center;}
 
 #shade {box-shadow:5px 10px black;}
 
-#wp {text-align: center; 
-    font-size: 12px;
-    margin-top:5px; 
-    color:white;
-    display: flex; 
-    justify-content:flex-between;}
+#wp #year {text-align: center; 
+           font-size: 12px;
+           margin-top:5px; 
+           color:white;}
 
 #yp {color:yellow;
     text-align:center; 
