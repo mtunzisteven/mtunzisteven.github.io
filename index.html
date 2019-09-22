@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <title>index</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/Style.CSS">
+
+    </head>    
+
+    <body><div id="container">
+
+         <header>
+            <div> 
+                <h1>Mtunzi S. Mavuma</h1>
+                <img id="flright" alt="My photo" height="230px" width="160px" src="https://mediafricia.co.za/wp-content/uploads/2019/09/40717_172670219410469_6501947_n.jpg">
+            </div>
+        </header>
+       
+        
+        <h2>CIT 230: Assignment Portal</h2>
+        <div id="line"></div>
+        <ul>
+            <li>Lesson 02: <a href="#">Assignment Link</a></li>
+            <li>Lesson 03: <a href="#">Assignment Link</a></li>
+            <li>Lesson 04: <a href="#">Link</a>|<a href="#">Link </a></li>
+        </ul>
+
+        <footer>
+            <p id="wp ">&copy <span id="year"></span> | Mtunzi S. Mavuma | Durban | <a id="whitelink" href=https://byui.edu/online>BYUI Online Learning</a> </p>
+            <p  id="yp"></p>
+            
+            <script>
+
+                    //Year ---------------------------------------------------------
+                    var yearf = new Date(); 
+                    
+                    document.getElementById("year").textContent = yearf.getFullYear();
+                    //--------------------------------------------------------------
+                    
+                    //Date Modified----------------------------------------------------------------------
+                    document.getElementById("yp").textContent = "Last Updated: " + document.lastModified;
+                    //-----------------------------------------------------------------------------------
+                    
+                    </script>
+        </footer>
+    </div>
+    </body>
+
+</html>
