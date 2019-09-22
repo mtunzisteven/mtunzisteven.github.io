@@ -38,7 +38,8 @@ p span {text-align:center;
     margin-top:-80px; 
     margin-right:10px;}
 
-#whitelink {color:white;}
+#whitelink {color:white;
+            text-align:center;}
 
 #shade {box-shadow:5px 10px black;}
 
