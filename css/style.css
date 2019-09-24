@@ -5,7 +5,9 @@ body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
       
     }
 
-
+#container {position: relative;
+            margin-left:100px;
+            margin-right:100px;}
 
 header {border-radius: 10px; 
         height:100px; 
@@ -16,19 +18,14 @@ footer {border-radius: 10px;
         color:white;
         background-color:#32b5aa;
         text-align: center;
-        padding-top:10px;
-        margin-left:100px;
-        margin-right:100px;}
+        padding-top:10px;}
 
-h2 {margin-top:50px;
-    margin-left:100px;
-    margin-right:100px;}
+h2 {margin-top:50px;}
 
 #line {background-color: black; 
     height:1.5px; 
-    margin-top:-0.5px;
-    margin-left:100px;
-    margin-right:100px;}
+    margin-right: 20px;
+    margin-top:-0.5px;}
 
 h1 {color:white; 
     padding-left: 12%; 
@@ -36,9 +33,7 @@ h1 {color:white;
     padding-top: 35px;}
 
 li {font-size: 14px;
-    margin-bottom:50px;
-    margin-left:100px;
-    margin-right:100px;}
+    margin-bottom:50px;}
 
 ul {margin-top:11px; 
     margin-left:10px;}
