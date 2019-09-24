@@ -5,9 +5,6 @@ body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
       
     }
 
-#container {position: relative;
-            margin-left:100px;
-            margin-right:100px;}
 
 header {border-radius: 10px; 
         height:100px; 
