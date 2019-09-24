@@ -1,7 +1,8 @@
 
 
 body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
-      padding:10%;
+      padding-left:10%;
+      padding-right:10%;
     }
 
 header {border-radius: 10px; 
@@ -15,7 +16,8 @@ footer {border-radius: 10px;
         text-align: center;
         padding-top:10px;}
 
-h2 {margin-top:50px;}
+h2 {margin-top:50px;
+    }
 
 #line {background-color: black; 
     height:1.5px; 
@@ -23,9 +25,9 @@ h2 {margin-top:50px;}
     margin-top:-0.5px;}
 
 h1 {color:white; 
-    padding-left: 12%; 
-    font-size: 28px; 
-    padding-top: 35px;}
+    padding-left: 6%; 
+    padding-top: 20px;
+    font-size: 50px;}
 
 li {font-size: 14px;
     margin-bottom:0px;}
@@ -33,7 +35,7 @@ li {font-size: 14px;
 
 #flright {box-shadow:0px 0px 12px 1px #000000; 
     float:right;
-    margin-top:-80px; 
+    margin-top:-100px; 
     margin-right:10px;}
 
 #shade {box-shadow:5px 10px black;}
