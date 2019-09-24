@@ -2,9 +2,8 @@
 
 body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
       max-width: 800px;
-      
+      margin: 100px;
     }
-
 
 header {border-radius: 10px; 
         height:100px; 
