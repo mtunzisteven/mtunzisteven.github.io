@@ -2,8 +2,7 @@
 
 body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
       max-width: 800px;
-      margin-left:100px;
-      margin-right:0px;
+      
     }
 
 
@@ -17,23 +16,31 @@ footer {border-radius: 10px;
         color:white;
         background-color:#32b5aa;
         text-align: center;
-        padding-top:10px;}
+        padding-top:10px;
+        margin-left:100px;
+        margin-right:100px;}
 
-h2 {margin-top:50px;}
+h2 {margin-top:50px;
+    margin-left:100px;
+    margin-right:100px;}
 
 #line {background-color: black; 
     height:1.5px; 
-    margin-right: 20px;
-    margin-top:-0.5px;}
+    margin-top:-0.5px;
+    margin-left:100px;
+    margin-right:100px;}
 
 h1 {color:white; 
     padding-left: 12%; 
     font-size: 28px; 
     padding-top: 35px;}
 
-li {font-size: 14px;}
-ul {margin-top:11px; 
+li {font-size: 14px;
     margin-bottom:50px;
+    margin-left:100px;
+    margin-right:100px;}
+
+ul {margin-top:11px; 
     margin-left:10px;}
 
 #flright {box-shadow:0px 0px 12px 1px #000000; 
