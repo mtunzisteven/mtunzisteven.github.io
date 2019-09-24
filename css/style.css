@@ -2,9 +2,11 @@
 
 body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
       max-width: 800px;
-      padding-left: 100px;
-      padding-right: 100px;}
+      }
 
+#container {margin-left:100px;
+            margin-right:100px;
+        }
 
 header {border-radius: 10px; 
         height:100px; 
