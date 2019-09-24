@@ -1,7 +1,9 @@
 
 
 body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
-      max-width: 800px;}
+      max-width: 800px;
+      margin-left: 100px;
+      margin-right: 100px;}
 
 
 header {border-radius: 10px; 
@@ -9,7 +11,7 @@ header {border-radius: 10px;
         background-color:#32b5aa;}
 
 footer {border-radius: 10px; 
-        height:75px; 
+        height:50px; 
         color:white;
         background-color:#32b5aa;
         text-align: center;
