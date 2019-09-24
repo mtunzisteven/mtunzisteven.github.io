@@ -1,10 +1,12 @@
 
 
 body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
-      padding-right:50px;
-      padding-left:50px;
-
     }
+
+header,footer{
+    padding-right:50px;
+    padding-left:50px;
+}
 
 header {border-radius: 10px; 
         height:100px; 
