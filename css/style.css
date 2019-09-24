@@ -2,7 +2,9 @@
 
 body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
       max-width: 800px;
-      }
+      margin-left:0px;
+      margin-right:0px;
+    }
 
 
 
