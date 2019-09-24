@@ -1,7 +1,6 @@
 
 
-body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
-     }
+body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;}
 
 
 header {border-radius: 10px; 
@@ -21,7 +20,7 @@ h2 {border-bottom:2px;
 
 #line {background-color: black; 
     height:1.5px; 
-    margin-right: 10%; 
+    margin-right: 20px;
     margin-top:-0.5px;}
 
 h1 {color:white; 
