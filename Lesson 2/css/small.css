@@ -1,0 +1,50 @@
+
+
+body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
+    padding-left:10%;
+    padding-right:10%;
+  }
+header {border-radius: none;
+      color:white;
+      background-color:#32b5aa;
+      text-align: center;}
+
+
+footer {border-radius: none;
+      color:white;
+      background-color:#32b5aa;
+      text-align: center;}
+
+h2 {margin-top:5%;
+  }
+
+h1 {text-align:center;
+}
+
+img {padding-left:20%;
+     padding-right:20%;}
+
+#container {display: flex;
+            flex-flow:row wrap;
+            justify-content:space-around;
+            align-items:center;
+            align-content:center;
+            
+          }
+
+
+
+
+
+#shade {box-shadow:5px 10px black;}
+
+#wp,#year,#whitelink {text-align: center; 
+                    color:white;
+                    padding-top:50px;}
+
+#wp {padding-left:100px;
+  font-size: 12px;}
+
+#yp {color:yellow;
+  text-align:center; 
+  font-size: 11px;}
