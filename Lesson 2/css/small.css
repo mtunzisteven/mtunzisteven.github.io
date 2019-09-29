@@ -24,11 +24,8 @@ h1 {text-align:center;
 img {padding-left:20%;
      padding-right:20%;}
 
-#container {display: flex;
-            flex-flow:row wrap;
-            justify-content:space-around;
-            align-items:center;
-            align-content:center;
+.grid {display:grid;
+       grid-template-rows:repeat(3, 1fr);
             
           }
 
