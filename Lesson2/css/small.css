@@ -5,16 +5,16 @@ body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
     padding-right:10%;
   }
 header {border-radius: none;
-      color:white;
-      background-color:#32b5aa;
-      text-align: center;
+        color:white;
+        background-color:#32b5aa;
+        text-align: center;
     }
 
 
 footer {border-radius: none;
-      color:white;
-      background-color:#32b5aa;
-      text-align: center;}
+        color:white;
+        background-color:#32b5aa;
+        text-align: center;}
 
 h2 {margin-top:5%;
     text-align:center; 
@@ -51,7 +51,7 @@ main section {margin:1rem;
               border: 1px solid black;
 }
 
-section:nth-child(2) {display: none;
+section:nth-child(2) {display: block;
                       margin: 1rem;
 }
 
