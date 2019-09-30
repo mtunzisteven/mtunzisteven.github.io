@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (min-width: 37.5em){
     
     h1 {font-size: 40px;
         padding-left: 0%; 
@@ -15,7 +15,11 @@
             padding-top:5px;
             padding-bottom:2.5px;}
    
-    h2 {text-align:center;}
+    main {grid-template-columns: 1fr 1fr;}
+
+    section:nth-child(2){display:block;}
+    section:nth-child(3){grid-column: span 2;}
+
     }
 
 
