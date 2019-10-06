@@ -1,0 +1,32 @@
+@media only screen and (min-width: 37.5em){
+
+nav a  {
+    padding: 0.5rem;
+    }
+
+
+nav ul {flex-direction: row;
+        
+            }
+
+
+main{
+    grid-template-columns: 1fr 1fr;     
+}
+
+section:nth-child(1){display:block;
+                    margin-right : 0.1rem;
+}
+
+section:nth-child(2){display:block;
+    margin-left : 0.1rem;
+}
+
+.cmain{
+    grid-template-columns: 1fr 1fr;     
+}
+
+header {border-radius: 15px 15px 0 0;
+}
+footer {border-radius:0 0 15px 15px ;}
+}

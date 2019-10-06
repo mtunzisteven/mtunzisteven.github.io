@@ -1,0 +1,125 @@
+
+
+body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
+    padding-left:10%;
+    padding-right:10%;
+    margin: 0.2rem;
+    max-width: 1040px;
+  }
+header {border-radius: none;
+      color:white;
+      background-color:#32b5aa;
+      text-align: center;}
+
+
+footer {border-radius: none;
+      color:white;
+      background-color:#32b5aa;
+      text-align: center;
+      padding-top:1rem;
+      padding-bottom:0.3rem;
+    }
+p{text-align:center;
+font-family:verdana;
+font-size:16px;}
+
+h2 {margin-top:5%;
+    text-align:center;
+  }
+
+.bulktext{text-align:justify;}
+
+.scmaih2{text-align: center;}
+
+.secmain{text-align: center;
+         padding-top: 15rem;
+         padding-bottom: 0rem;    
+
+}
+
+#hh2{font-size:30px;}
+
+h1 {color:white; 
+  font-size: 30px;
+  text-align: center;
+  padding-top: 1rem;
+  }
+
+
+
+nav a  {display: block;
+        color:white;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+        font-size:15px;
+        }
+
+nav ul  {display: flex;
+         flex-direction:column;
+         list-style-type: none;
+         margin:0;
+         padding:0;
+         overflow: hidden;
+        }
+
+nav li  {flex: 1 1 100%;
+
+        }
+
+        
+nav a:hover{color: black;
+    background-color:#f7b32b;
+    border-color: #d71920;
+}
+main{max-width: 1040px;
+     margin: 0 auto;    
+}
+
+main section{margin:0rem;
+    border-style: double;
+    border-color:#000000;
+    padding:0 1rem;
+    background-color:#ffffff;
+    height: 15rem;
+   }
+.centaudience {text-align: left;
+padding-left:15px;
+padding-right:15px;}
+   .tallone{padding-top:0px; margin-top:-5px}
+main{display:grid;
+    grid-template-columns: 1fr;     
+}
+
+.mid_p{padding-top:40px;}
+
+section:nth-child(2){margin: 0rem;
+                    
+
+}
+
+.cmain{margin-bottom: 0rem;}
+
+.secmain:nth-child(1){ background-color:#03bfaa;
+}
+.secmain:nth-child(2){ background-color:#f7b32b;
+    margin-right : 0.1rem;
+}
+.secmain:nth-child(3){ background-color:#d71920;
+    margin-right : 0.1rem;
+    margin-left : 0.1rem;
+}
+.secmain:nth-child(4){ background-color:#31393c;
+    margin-left : 0.1rem;
+}
+
+#wp,#year,#whitelink {text-align: center; 
+                    color:white;
+                    padding-top:50px;}
+
+#wp {padding-left:100px;
+  font-size: 12px;}
+
+#yp {color:yellow;
+  text-align:center; 
+  font-size: 11px;}
