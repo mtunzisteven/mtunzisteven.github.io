@@ -74,6 +74,11 @@ nav a:hover{color: black;
               background-color:#f7b32b;
               border-color: #d71920;
               }
+
+nav a:active{color: #f7b32b;
+            background-color:white;
+            }
+h
 main{max-width: 1040px;
               margin: 0 auto;    
               }
@@ -88,8 +93,10 @@ main section{margin:0rem;
 
 .centaudience {text-align: left;
               padding-left:15px;
-              padding-right:15px;}
+              padding-right:15px;
+}
 
+.audsection{padding-bottom:20%;}
 .tallone{padding-top:0px; margin-top:-5px}
               main{display:grid;
               grid-template-columns: 1fr;     
@@ -115,7 +122,7 @@ section:nth-child(2){margin: 0rem;
               margin : 0.1rem;
 
               }
-              
+
 .secmain:nth-child(4){ background-color:#31393c;
               margin : 0.1rem;
 
@@ -125,7 +132,7 @@ section:nth-child(2){margin: 0rem;
               color:white;
               padding-top:50px;}
 
-  #wp {font-size: 12px;}
+#wp {font-size: 12px;}
 
 #yp {color:yellow;
               text-align:center; 
