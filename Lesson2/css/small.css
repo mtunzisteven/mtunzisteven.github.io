@@ -74,11 +74,12 @@ h3 {color:black;
              width:50%;
             }
 
-#wp,#year,#whitelink {text-align: left; 
-                      color:white;
-                      padding-top:50px;}
+#wp,#year,#whitelink {text-align: center; 
+  color:white;
+  padding-top:50px;}
 
+#wp {font-size: 12px;}
 
 #yp {color:yellow;
-     text-align:center; 
-     font-size: 11px;}
+text-align:center; 
+font-size: 11px;}
