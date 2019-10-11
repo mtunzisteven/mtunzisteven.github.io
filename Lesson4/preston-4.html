@@ -5,6 +5,7 @@
 
         <title>Preston Weather Page</title>
         <meta charset="utf-8">
+        <meta name="description" content="This page shows the weather of the area named Preston">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
@@ -21,49 +22,83 @@
     <body>
     
         <header>
-                <h1>Weather Land</h1>
-                <img class="tallone" alt="wetherland logo" width="100" src="content/iconfinder_10_1208025.png">
-                <nav>
-                    <ul>
-                        <li><a target="blank" href="#">Home</a></li>
-                        <li><a target="blank" href="target-audience.html">Audience</a></li>
-                        <li><a target="blank" href="typography.html">Typography</a></li>
-                        <li><a target="blank" href="color-scheme.html">Color</a></li>               
-                    </ul>
-                </nav>
+            <div class = "heatainer">
+            <img class = " logo" alt="wetherland logo" width="100" src="images/iconfinder_10_1208025.png">
+
+                <section>
+                    <h1>Weather Land</h1>
+                    <h4><em>Getting you future ready!</em></h4>
+                </section>  
+            </div> 
+        
+            <nav>
+                <ul class = "navigation">
+                    <li><a target="blank" href="#" onclick = "toggleMenu()">&#9776;Menu</a></li>               
+                    <li><a target="blank" href="lesson3/index.html">Home</a></li>
+                    <li><a target="blank" href="lesson3/target-audience.html">Audience</a></li>
+                    <li><a target="blank" href="lesson3/typography.html">Typography</a></li>
+                    <li><a target="blank" href="lesson3/color-scheme.html">Color</a></li>               
+                </ul>
+            </nav>
+                
         </header>
-        
-        <h2>
-            Site Purpose
-        </h2>
-        <p class="bulktext">
-            This is a weather site that is designed to help people who live in Preston, Soda Springs and Fish Haven with an accurate and reliable weather focast. It helps all individuals in the area prepare adequately for the emediate future and be safe in times of storms. When people need to know what to wear, what to take on their hike, or to just check if it's the right day to hang laundry outside, this is the website that helps them make an informed dicision with confidence.
-        </p>
-        <main>
-            <section> 
-               <h2>
-                    available domain
-                </h2>
-                <p class="mid_p">
-                    www.weatherland.online
-                </p>
-            </section>
-            <section> 
-                    <h2>
-                        Logo
-                    </h2>
+        <div class = "contentwrapper">
+            
+            <h2>
+                Preston
+            </h2>
+
+            <div class = "hero">
+                <img>
+                <section>
+                    <h6>
+                        Hero
+                    </h6>
                     <p>
-                        <img class="talloneb" alt="wetherland logo" width="100" src="content/iconfinder_10_1208025.png">
+
                     </p>
-            </section>
-        </main>
+                </section>
+            </div>
+
+            <div class = "firstcon">
+                <h5>5 Day Forcast</h5>
+                <div>
+
+                </div>
+            </div>
+
+            <div class = "secondcon">
+                <section class = "scleft">
+                    <h3>Article</h3>
+                    <p>
+
+                    </p>
+                </section>
+                
+                <section class = "scright">
+                    <img>
+                </section>
+            </div>
+
+            <div class = "thirdcon">
+                    <section class = "tcleft">
+                        <img>
+                    </section>
+
+                    <section class = "tcright">
+                        <p>
+                            Contact Details
+                        </p>
+                    </section>
+            </div>
+            
         
-    
-        <footer>
-            <span id="wp">&copy;</span><span id="year"></span><span> | Mtunzi S. Mavuma | Kwa-Zulu Natal | <a id="whitelink" href=https://byui.edu/online>BYUI Online Learning</a> </span><br>
-            <span  id="yp"></span>
-            <script src="js/date.js"></script>
-        </footer>
+            <footer>
+                <span id="wp">&copy;</span><span id="year"></span><span> | Mtunzi S. Mavuma | Kwa-Zulu Natal | <a id="whitelink" href=https://byui.edu/online>BYUI Online Learning</a> </span><br>
+                <span  id="yp"></span>
+                <script src="js/functions.js"></script>
+            </footer>
+        </div>
     
     </body>
 

@@ -5,6 +5,10 @@ body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
       padding-right:20%;
     }
 header {border-radius: none;
+        display:flex;
+        flex-direction:column;
+        align-content:center;
+        justify-content: center;
         color:white;
         background-color:#32b5aa;
         text-align: center;}
@@ -20,8 +24,7 @@ h2 {margin-top:5%;
 
 #line {background-color: black; 
     height:1.5px; 
-    margin-right: 20px;
-    margin-top:-20px;}
+}
 
 h1 {color:white; 
     font-size: 30px;
@@ -32,18 +35,23 @@ li {font-size: 14px;
 
 
 #flright {box-shadow:0px 0px 12px 1px #000000;
-    margin-top: 30; 
+    margin: auto;
 }
 
 #shade {box-shadow:5px 10px black;}
 
+
 #wp,#year,#whitelink {text-align: center; 
-                      color:white;
-                      padding-top:50px;}
+    color:white;
+    padding-top:50px;}
 
-#wp {padding-left:100px;
-    font-size: 12px;}
+#wp {
+font-size: 12px;}
 
-#yp {color:yellow;
-    text-align:center; 
-    font-size: 11px;}
+#yp {
+color:yellow;
+text-align:center; 
+font-size: 11px;
+
+
+}
