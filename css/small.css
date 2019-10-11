@@ -17,7 +17,9 @@ header {border-radius: none;
 footer {border-radius: none;
         color:white;
         background-color:#32b5aa;
-        text-align: center;}
+        text-align: center;
+        margin-top:2rem;
+        }
 
 h2 {margin-top:5%;
     }
