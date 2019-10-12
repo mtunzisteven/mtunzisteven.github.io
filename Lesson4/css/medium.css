@@ -6,7 +6,11 @@
 .navigation li{display:block;}
 
 
- nav ul  {flex-direction:row;}
+ nav  {padding-right:10%;
+    padding-left:10%;}
+
+nav ul {    flex-direction:row;
+}
     
 .contentwrapper {           padding-left:10%;
                             padding-right:10%;
