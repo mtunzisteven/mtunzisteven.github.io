@@ -114,3 +114,21 @@ font-size: 12px;}
 
 }
 
+.hero {
+  width:960px;
+  height:300px;    
+  border: solid;
+  border-color: #31393c; 
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; 
+
+}
+
+.hero-cd{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin: 2rem;
+}
