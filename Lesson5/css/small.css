@@ -1,0 +1,116 @@
+
+
+body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
+
+}
+
+header {
+
+    color:#ffffff;
+    background-color:#32b5aa;
+    text-align: center;
+}
+
+.navigation li:first-child{display:block;}
+
+.navigation li{display:none;}
+
+
+    
+    nav a  {display: block;
+      color:white;
+      text-align: center;
+      padding: 1rem;
+      text-decoration: none;
+      font-size:15px;
+      }
+
+nav ul  {display: flex;
+      flex-direction:column;
+      list-style-type: none;
+      margin:0;
+      padding:0;
+      border-top: solid;
+      overflow: hidden;
+
+      }
+
+nav li  {flex: 1 1 100%;}
+
+nav a:hover{color: black;
+      background-color:#f7b32b;
+      border-color: #d71920;
+      }
+
+nav a:active{color: #f7b32b;
+    background-color:white;
+    }
+
+
+
+footer {
+    color:white;
+    background-color:#32b5aa;
+    text-align: center;
+    padding: 1rem;
+
+  
+  }
+
+h2, h4 {text-align: center;
+  
+}
+
+.firstcon, .secondcon, .thirdcon, .hero{border:0.01rem #000000 solid ;
+                                        margin-top:1.2rem;
+                                        background-color: #aad6d3;
+                                        padding-right:0.5rem;
+                                        padding-left:0.5rem;
+}
+
+.heatainer{
+            display:flex;
+            align-content: center;
+            justify-content: center;
+          
+          }
+
+
+h1 {color:white; 
+font-size: 30px;
+text-align: center;
+padding-top:1rem;
+margin-bottom: -1rem;
+}
+
+li {font-size: 14px;
+margin-bottom:0px;}
+
+#wp,#year,#whitelink {text-align: center; 
+                  color:white;
+                  padding-top:50px;}
+
+#wp {
+font-size: 12px;}
+
+#yp {
+      color:yellow;
+      text-align:center; 
+      font-size: 11px;
+      
+
+}
+
+.responsive li:first-child {
+  background-color:#000000;
+
+}
+
+.responsive a{color:#ffffff;}
+
+.responsive li {
+  display:block;
+  background-color:#d71920;
+
+}
+

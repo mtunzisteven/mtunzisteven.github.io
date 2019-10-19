@@ -1,0 +1,18 @@
+@media only screen and (min-width: 37.5em){
+
+
+.navigation li:first-child{display:none;}
+
+.navigation li{display:block;}
+
+
+ nav  {padding-right:10%;
+    padding-left:10%;}
+
+nav ul {    flex-direction:row;
+}
+    
+.contentwrapper {           padding-left:10%;
+                            padding-right:10%;
+                            }
+                        }
