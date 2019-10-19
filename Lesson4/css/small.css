@@ -42,7 +42,7 @@ nav a:hover{color: black;
       border-color: #d71920;
       }
 
-nav a:active{color: #f7b32b;
+ul li:active{
     background-color:white;
     }
 
