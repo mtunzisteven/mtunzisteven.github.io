@@ -23,6 +23,7 @@ header {
       padding: 1rem;
       text-decoration: none;
       font-size:15px;
+
       }
 
 nav ul  {display: flex;
@@ -30,7 +31,6 @@ nav ul  {display: flex;
       list-style-type: none;
       margin:0;
       padding:0;
-      border-top: solid;
       overflow: hidden;
 
       }
@@ -61,11 +61,19 @@ h2, h4 {text-align: center;
   
 }
 
-.firstcon, .secondcon, .thirdcon, .hero{border:0.01rem #000000 solid ;
-                                        margin-top:1.2rem;
-                                        background-color: #aad6d3;
-                                        padding-right:0.5rem;
-                                        padding-left:0.5rem;
+.firstcon, .secondcon, .thirdcon{ border:0.01rem #000000 solid ;
+                                  margin-top:1.2rem;
+                                  background-color: #aad6d3;
+                                  padding-right:0.5rem;
+                                  padding-left:0.5rem;
+}
+
+.firstcon{display:none;}
+
+.map{ max-width: 350px;
+      padding-left:15%;
+      padding-right:15%;
+      padding-top: 20px;
 }
 
 .heatainer{
@@ -114,21 +122,56 @@ font-size: 12px;}
 
 }
 
-.hero {
-  width:960px;
-  height:300px;    
-  border: solid;
-  border-color: #31393c; 
-  position: relative;
-  margin-left: auto;
-  margin-right: auto; 
-
+.hero-div{margin: 10px auto;
+          max-width: 100%;
+          height: auto;
+          
 }
 
 .hero-cd{
   position: absolute;
-  width: 200px;
-  height: 200px;
-  background-color: white;
-  margin: 2rem;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size:8px;
+  background-color: #0a5750;
+  opacity: 0.80;
+  margin-top: -111px;
+  margin-left: 20px;
+  padding:0.5rem;
+  box-shadow: 0px 0px 10px 5px #000000;
 }
+
+div .hero-cd-heading {margin:0;
+                      text-align:center;
+                      border-bottom: solid;
+                      border-width: 0.7px;
+}
+.scleft img{max-width: 350px;
+  padding-left:10%;
+  padding-right:10%;
+  padding-top: 20px;
+            
+
+}
+
+.article{text-align:justify;}
+.AH3 {text-align:center;}
+.details, .contacts{text-align: center;}
+
+.current{background-color: #d71920;}
+
+.scright, .scleft{margin: 0.51rem;}
+
+
+.hero-image{
+  display: block;
+  margin:0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+
+}
+
+.scright h3 {margin-bottom:-1.3rem;}
+.scright p em {font-size: 10px;}

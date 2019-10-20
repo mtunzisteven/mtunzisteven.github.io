@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em){
+@media only screen and (min-width: 39.5em){
 
 
 .navigation li:first-child{display:none;}
@@ -6,13 +6,88 @@
 .navigation li{display:block;}
 
 
- nav  {padding-right:10%;
-    padding-left:10%;}
+ nav  { padding-right:10%;
+        padding-left:10%;
+        background-color:#0b423e;
+        border:none;}
 
 nav ul {    flex-direction:row;
 }
-    
+
+.AH3 {text-align:left;}
+
+.firstcon{display:block;}
+
+
+div .scleft img{
+            float:right;
+            padding-left:10px;
+            padding-right: 0;
+}
+
+.scleft, .scright{margin:1rem;}
+
+.scleft {margin-right:2rem;
+            padding-top: 15px;        
+}
+
+.contacts {text-align:left;
+            margin-top:35px;
+            margin-left:35rem;
+            text-align: left;
+            
+}
+.secondcon{height:21rem;}
+
+.focust{text-align:center;}
+
+.wfparent{  display:grid;
+            max-width: 700px;
+            margin: 0 auto;
+            grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+}
+
+.wfparent .wfchildren{  margin:0.25rem;
+                        padding: 0.5rem;
+                        margin-bottom:1rem;
+                        text-align: center;
+                        background-color:white;
+                        font-size:50px;
+                        border-radius:30px;
+                        box-shadow: 2px 2px 5px black;
+                        
+
+}
+
+.innertext{font-size:16px;
+            
+}
+
+.thirdcon{height:23rem;}
+
+.details{   margin-left: 35rem;
+            font-size:14px; 
+            text-align: left;
+               
+}
+
+.hero-cd{
+        margin-top:-260px;
+        padding:1rem;
+        width:150px;
+        height:150px;
+        font-size: 11px;
+  }
+  
+.hero-cd-heading{font-size:14px;}
+
 .contentwrapper {           padding-left:10%;
                             padding-right:10%;
                             }
+                        
+.map {  float:left;
+        margin:1rem;
+        padding-right:10px;
+        padding-left:0;
+}
                         }

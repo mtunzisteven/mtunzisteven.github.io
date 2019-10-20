@@ -7,6 +7,7 @@
         <meta charset="utf-8">
         <meta name="description" content="This page shows the weather of the area named Preston">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
@@ -35,7 +36,7 @@
                 <ul class="navigation">
                     <li><a onclick="toggleMenu()">&#9776;Menu</a></li>               
                     <li><a href="#">Home</a></li>
-                    <li><a href="preston-5.html">Preston</a></li>
+                    <li class="current"><a href="preston-5.html">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
                     <li><a href="#">Fish Haven</a></li>    
                     <li><a href="#">Storm Center</a></li>
@@ -50,47 +51,65 @@
                 Preston Idaho
             </h2>
 
-            <div class="hero">
-                <img>
+            <div class="hero-div">
+                <img class=" hero-image" alt="wetherland hero image" src="images/hero.jpg">
                 <section class="hero-cd">
-                    <h6>
-                        Hero
-                    </h6>
-                    <p>
-
-                    </p>
+                    <h3 class="hero-cd-heading">
+                        Weather Summary
+                    </h3>
+                    <p>Currently : Sunny </p>
+                    <p>High : 53 degrees </p>
+                    <p>Wind Speed : 53 degrees </p>
+                    <p>Direction : 53 degrees </p>
                 </section>
             </div>
 
             <div class="firstcon">
-                <h5>5 Day Forcast</h5>
-                <div>
-
+                <h3 class="focust">5 Day Forcast</h3>
+                <div class="wfparent">
+                        <div class="wfchildren">&#127774; <br/><p class="innertext">Sunny</p></div>
+                        <div class="wfchildren">&#127780; <br/><p class="innertext">Cloudy</p></div>
+                        <div class="wfchildren">&#127783; <br/><p class="innertext">Showers</p></div>
+                        <div class="wfchildren">&#127783; <br/><p class="innertext">Showers</p></div>
+                        <div class="wfchildren">&#127782; <br/><p class="innertext">Raining</p></div>
                 </div>
             </div>
 
             <div class="secondcon">
                 <section class="scleft">
-                    <h3>Article</h3>
-                    <p>
-
-                    </p>
+                    <img alt="Ocean Lovers" src="images/Ocean Lovers.jpg">
                 </section>
-                
                 <section class="scright">
-                    <img>
+                    <h3 class="AH3">Article About Weather</h3>
+                    <p class="AH3"><em>By: Mtunzi S. Mavuma</em></p>
+                    <p class="article">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
+                        quis nostrud exerci tation ullamcorper suscipit lobortis 
+                        nisl ut aliquip ex ea commodo consequat.</p>
+                        <p class="article"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                            magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
+                            quis nostrud exerci tation ullamcorper suscipit lobortis 
+                            nisl ut aliquip ex ea commodo consequat.</p>
+                            
+                        <a href="#"><p class="AH3"><strong>read more</strong></p></a>
                 </section>
             </div>
 
             <div class="thirdcon">
                     <section class="tcleft">
-                        <img>
+                        <img class="map" src="images/Map.png">
                     </section>
 
                     <section class="tcright">
                         <p>
-                            Contact Details
+                            <h3 class="contacts">Contact Details</h3>
                         </p>
+
+                        <p class="details">&#128205; 1 First try Street, USA</p>
+                        <p class="details">&#128222; +1 23 655 5646</p>
+                        <p class="details">&#128231; info@weatherland.online</p>
                     </section>
             </div>
             
@@ -99,6 +118,7 @@
                 <span id="wp">&copy;</span><span id="year"></span><span> Weather Land  | Mtunzi S. Mavuma | <a id="whitelink" href=https://byui.edu/online>BYUI Online Learning</a> </span><br>
                 <span  id="yp"></span>
                 <script src="js/functions.js"></script>
+                <script src="js/fridayBanner.js"></script>
             </footer>
         </div>
     
