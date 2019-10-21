@@ -16,11 +16,17 @@
     
     function friday(){
 
-        var msg = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
-
-        if(days(d.getDay()) != "Sunday"){
-
-            alert(msg);
-        }
-        else{alert("error!")}
+        if(days(d.getDay()) == "Friday"){
+            let appearance = document.getElementById("banner");
+            appearance.style.display = "block";           
+        }   
+        style();
     }
+
+
+    function style(){
+        let msg = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
+        document.getElementById("banner").innerHTML = msg;
+
+    }
+  
