@@ -70,9 +70,9 @@ h2, h4 {text-align: center;
 
 .firstcon{display:none;}
 
-.map{ max-width: 350px;
-      padding-left:15%;
-      padding-right:15%;
+.map{ width: 350px;
+      padding-left:10%;
+      padding-right:10%;
       padding-top: 20px;
 }
 
@@ -132,9 +132,8 @@ font-size: 12px;}
   position: absolute;
   width: 100px;
   height: 100px;
-  color: white;
-  font-size:8px;
-  background-color: #0a5750;
+  font-size:10px;
+  background:radial-gradient(#ffffff, #0a5750 );
   opacity: 0.80;
   margin-top: -111px;
   margin-left: 20px;
