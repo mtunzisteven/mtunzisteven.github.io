@@ -31,10 +31,11 @@ div .scleft img{
             padding-top: 15px;        
 }
 
-.contacts {text-align:left;
-            margin-top:35px;
+.contacts {
+            margin-top:0px;
             margin-left:35rem;
-            text-align: left;
+            text-align: center;
+            padding:3rem;
             
 }
 .secondcon{height:21rem;}
@@ -47,13 +48,13 @@ div .scleft img{
             grid-template-columns:1fr 1fr 1fr 1fr 1fr;
 }
 
-.wfparent .wfchildren{  margin:0.25rem;
-                        padding: 0.5rem;
+.wfparent .wfchildren{  margin:0.1rem;
+                        padding: 0rem;
+                        margin-top:0;
                         margin-bottom:1rem;
                         text-align: center;
                         background-color:white;
                         font-size:50px;
-                        border-radius:30px;
                         box-shadow: 2px 2px 5px black;
                         
 
@@ -67,7 +68,7 @@ div .scleft img{
 
 .details{   margin-left: 35rem;
             font-size:14px; 
-            text-align: left;
+            text-align: center;
                
 }
 
@@ -95,4 +96,21 @@ div .scleft img{
 
 #banner {display: none;
         line-height: 2.5rem;}
-                        }
+                        
+
+.forcast{
+        font-size:19px;
+        margin: 0;
+        Padding-top:1.5rem;
+        padding-bottom: 0.8rem;
+        background-color: #d71920;
+        color:white;
+
+}
+
+.firstcon, .tcleft{display:block;}
+
+.tcleft{padding:2rem;}
+
+
+}

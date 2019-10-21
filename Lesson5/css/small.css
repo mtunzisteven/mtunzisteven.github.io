@@ -68,7 +68,7 @@ h2, h4 {text-align: center;
                                   padding-left:0.5rem;
 }
 
-.firstcon{display:none;}
+.firstcon, .tcleft{display:none;}
 
 .map{ width: 350px;
       padding-left:10%;
@@ -146,7 +146,7 @@ div .hero-cd-heading {margin:0;
                       border-bottom: solid;
                       border-width: 0.7px;
 }
-.scleft img{max-width: 350px;
+.scleft img{width: 350px;
   padding-left:10%;
   padding-right:10%;
   padding-top: 20px;
@@ -183,3 +183,4 @@ div .hero-cd-heading {margin:0;
           line-height: 1.5rem;
           font-size: 18px;
           }
+
