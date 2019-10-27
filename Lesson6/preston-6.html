@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <title>Preston Weather Page</title>
+        <meta charset="utf-8">
+        <meta name="description" content="This page shows the weather of the area named Preston">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+
+
+
+        <!--Google fonts API link: Ubuntu--><!--
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">-->
+    </head>    
+
+    <body onload="friday()" >
+        <div id= "banner"></div>
+        <header>
+            <div class="heatainer">
+            <img class=" logo" alt="wetherland logo" width="100" src="images/iconfinder_10_1208025.png">
+
+                <div>
+                    <h1>Weather Land</h1>
+                    <h4><em>Getting you future ready!</em></h4>
+                </div>  
+            </div> 
+        
+            <nav>
+                <ul class="navigation">
+                    <li><a onclick="toggleMenu()">&#9776;Menu</a></li>               
+                    <li><a href="#">Home</a></li>
+                    <li class="current"><a href="preston-5.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>    
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>            
+                </ul>
+            </nav>
+                
+        </header>
+        <div class="contentwrapper">
+            
+            <h2>
+                Preston, Idaho
+            </h2>
+
+            <div class="hero-div">
+                <picture  >
+                    <source media="(min-width: 60em)" srcset="images/HeroLarge.jpg">
+                    <source media="(min-width: 39.5em)" srcset="images/HeroMed.jpg">
+                    <img style="width:100%;" src="images/HeroSmall.jpg" alt="Dawning Day">
+                  </picture>
+                <div class="hero-cd">
+                    <h3 class="hero-cd-heading">
+                        Weather Summary
+                    </h3>
+                    <p>Currently : Sunny </p>
+                    <p>High : <span id="high">32</span>&#176;C </p>
+                    <p>Wind chill : <span id="wind"></span>&#176;C</p>
+                    <p>Humidity : 80% </p>
+                    <p>Wind Speed : <span id="speed">20</span>km/hr </p>
+                </div>
+            </div>
+
+            <div class="firstcon">
+                <h3 class="focust">5 Day Forcast</h3>
+                <div class="wfparent">
+                        <div class="wfchildren"><div class="forcast">Wed</div><br/> &#127774; <br/><p class="innertext">31&#176;C</p></div>
+                        <div class="wfchildren"><div class="forcast">Thu</div><br/> &#127780; <br/><p class="innertext">26&#176;C</p></div>
+                        <div class="wfchildren"><div class="forcast">Fri</div><br/> &#127783; <br/><p class="innertext">24&#176;C</p></div>
+                        <div class="wfchildren"><div class="forcast">Sat</div><br/> &#127783; <br/><p class="innertext">25&#176;C</p></div>
+                        <div class="wfchildren"><div class="forcast">Sun</div><br/> &#127782; <br/><p class="innertext">21&#176;C</p></div>
+                </div>
+            </div>
+
+           
+            <div class="secondcon">
+                <div class="scleft">
+                    <img alt="Ocean Lovers" src="images/OceanLoversOp.jpg">
+                </div>
+                <div class="scright">
+                    <h3 class="AH3">Article About Weather</h3>
+                    <p class="AH3"><em>By: Mtunzi S. Mavuma</em></p>
+                    <p class="article">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
+                        quis nostrud exerci tation ullamcorper suscipit lobortis 
+                        nisl ut aliquip ex ea commodo consequat.</p>
+                        <p class="article"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                           </p>
+                            
+                        <a href="#"><p class="AH3"><strong>read more</strong></p></a>
+                </div>
+            </div>
+
+            <div class="thirdcon">
+                    <div class="tcleft">
+                        <img alt="Map of Preston" class="map" src="images/MapOp.jpg">
+                    </div>
+
+                    <div class="tcright">
+                        
+                        <h3 class="contacts">Contact Details</h3>
+                       
+
+                        <p class="details">&#128205; 1 First try Street, USA</p>
+                        <p class="details">&#128222; +1 23 655 5646</p>
+                        <p class="details">&#128231; info@weatherland.online</p>
+                    </div>
+            </div>
+            
+        
+            <footer>
+                <span id="wp">&copy;</span><span id="year"></span><span> Weather Land  | Mtunzi S. Mavuma | <a id="whitelink" href=https://byui.edu/online>BYUI Online Learning</a> </span><br>
+                <span  id="yp"></span>
+                <script src="js/functions.js"></script>
+                <script src="js/fridayBanner.js"></script>
+                <script src="js/windchill.js"></script>
+            </footer>
+        </div>
+        <!--                                                                                 -->
+        <!--A better way to reference Google fonts, or any other font API for that matter-->
+        <!--Latest version(1.6.28) doesn't work-->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <!--                                                              -->
+
+        <!--                                                              -->
+        <!--Calling the specific fonts that I want to use on my website-->
+        <!--Creating a function for this script and adding it from there doesn't work.
+        referencing it from here is how it got to work properly-->
+        <script>WebFont.load({google: {families: ['Ubuntu']}});</script>
+        <!--                                                                                 -->
+    </body>
+
+</html>

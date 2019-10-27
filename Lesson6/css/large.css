@@ -1,0 +1,51 @@
+@media only screen and (min-width: 60em){
+    
+.hero-cd{
+        margin-top:-300px;
+        height:150px;
+
+  }
+
+.secondcon {padding-bottom: 7rem;
+
+}
+
+div .scleft img{
+    width:30%;
+    padding-top:1rem;
+    height:auto;
+
+}
+
+.scleft, .scright{margin:1rem;}
+
+.scleft {margin-right:2rem;
+padding-top: 15px;        
+}
+.thirdcon{padding-bottom:7rem;
+  }
+
+.map {  float:left;
+        width:25%;
+        padding:0;
+        margin: 0;
+        margin-bottom:1rem;
+        margin-top:1rem;
+        padding-left:2rem;
+        padding-top: 4rem;
+        height:auto;
+}
+
+.contacts {
+margin-top:8rem;
+text-align: center;
+}
+
+.details{   margin-left: 1rem;
+    font-size:14px; 
+    text-align: center;
+       
+}
+
+
+}
