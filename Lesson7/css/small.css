@@ -1,0 +1,24 @@
+
+
+body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
+
+}
+
+h1 {text-align: center;}
+
+body div{display: grid;
+        text-align:center;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        overflow: auto;
+        resize: horizontal;
+
+}
+
+div img[data-src] {
+  filter: blur(0.2em);
+}
+
+div img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
