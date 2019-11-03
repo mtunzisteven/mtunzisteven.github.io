@@ -192,6 +192,7 @@ CSS above doesn't apply to my HTML unless directly apply through style atribute 
 .bodiv2{ 
       display: grid;
       text-align:center;
+      align-content: center;
       grid-template-columns: 1fr;
 }
 
