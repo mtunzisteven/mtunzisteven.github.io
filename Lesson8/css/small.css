@@ -4,6 +4,84 @@ body {font-family: Ubuntu, sans-serif, Tahoma, sans-serif;
 
 }
 
+.heatainer{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+  
+  }
+
+legend {
+        padding: 3rem;
+}
+
+fieldset{
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+}
+
+input{
+        font-size:16px;
+        padding-top: 0.5rem;
+        padding-bottom:0.5rem;
+    }
+
+.date{
+        padding:0;
+        margin-bottom: 1rem;
+        width:10rem;
+}
+
+.star{
+        color: red;
+}
+
+.paraspace{
+            margin-top:15rem;
+            margin-bottom:15rem;
+            text-align:center;
+
+}
+
+.choose{
+        padding-bottom:0.5rem;
+}
+
+.current{background-color: #d71920;}
+
+.inlines, .txtarea{
+
+    margin-bottom: 1rem;
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+
+}
+#button{
+        text-align:center;
+        padding: 0.5rem;
+        color: white;
+        background-color:#d71920;
+        border-color: #ffffff;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        border-radius: 8px;
+}
+
+#button:hover{
+                background-color:#f7b32b;
+                color: #000000;
+                border-color: #000000;
+}
+
+.txtarea{
+
+    padding-bottom:5rem;
+}
+
+
 table, caption{
       margin-left:auto;
       margin-right:auto;
@@ -52,3 +130,118 @@ caption {
               background-color:#628ca6;
               color:#ffffff;
 }
+
+
+
+body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
+
+}
+
+header {
+
+    color:#ffffff;
+    background-color:#32b5aa;
+    text-align: center;
+}
+
+/*****        Navigation Menu        *****/
+.navigation li:first-child{display:block;}
+/** The above is for the mobile. Only it is shown*/
+
+/** The above is for the mobile. Below aren't shown*/
+.navigation li{display:none;}
+    
+nav a  {display: block;
+        color:white;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+        font-size:15px;
+      }
+
+nav ul  {display: flex;
+      flex-direction:column;
+      list-style-type: none;
+      margin:0;
+      padding:0;
+      overflow: hidden;
+
+      }
+
+nav li  {flex: 1 1 100%;}
+
+/*******This part is for styling the dropdown menu*******/
+nav a:hover{color: black;
+            background-color:#f7b32b;
+            border-color: #d71920;
+      }
+
+nav a:active{
+             color: #f7b32b;
+             background-color:white;
+    }
+.responsive li:first-child {
+                            background-color:#000000;       
+
+}
+
+.responsive a{color:#ffffff;}
+
+.responsive li {
+                display:block;
+                background-color:#d71920;
+
+}
+
+  /**********************************/
+
+  
+footer {
+    color:white;
+    background-color:#32b5aa;
+    text-align: center;
+    padding: 1rem;
+  }
+
+h2, h4 {text-align: center;
+  
+}
+
+.wrapper{ 
+        border:0.01rem #000000 solid ;
+        margin-top:1.2rem;
+        background-color: #aad6d3;
+        padding:3rem;
+        margin-right:10%;
+        margin-left:10%;
+        margin-bottom: 2rem;
+        box-shadow: 5px 5px 12px #000000;
+}
+
+h1 {color:white; 
+font-size: 30px;
+text-align: center;
+padding-top:1rem;
+margin-bottom: -1rem;
+}
+
+li {font-size: 14px;
+margin-bottom:0px;}
+
+#wp,#year,#whitelink {text-align: center; 
+                  color:white;
+                  padding-top:50px;}
+
+#wp {
+font-size: 12px;}
+
+#yp {
+      color:yellow;
+      text-align:center; 
+      font-size: 11px;
+      
+
+}
+
+
+
