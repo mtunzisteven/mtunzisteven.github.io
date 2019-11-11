@@ -34,6 +34,25 @@ input{
         width:10rem;
 }
 
+.slidecon {
+    width: 100%;
+  }
+  
+input[type="range"]{
+    -webkit-appearance: none;
+    background: #d71920;
+    height: 2px;
+
+  }
+
+#rangeout{
+            color: #000000;
+            font-size: 20;
+            margin-left: 1rem;
+  }
+
+
+
 .star{
         color: red;
 }
@@ -218,7 +237,7 @@ h2, h4 {text-align: center;
         box-shadow: 5px 5px 12px #000000;
 }
 
-h1 {color:white; 
+h1 {color:#000000; 
 font-size: 30px;
 text-align: center;
 padding-top:1rem;

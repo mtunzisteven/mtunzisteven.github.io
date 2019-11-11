@@ -70,20 +70,21 @@
                                         <option>Tornado</option>
                                     </select>
                                 </label>
-                                <label for="severity">Storm Severity<br/>
-                                    <input class="date" list="list" id="severity" name="severity">
+                                <label class="slidercon" for="severity">Storm Severity<br/>
+                                    <input class="range" list="list" type="range" id="severity" min="1" max="10" step="1" value="1" name="severity">
                                     <datalist id="list" >
-                                        <option value="1">
-                                        <option value="2">
-                                        <option value="3">
-                                        <option value="4">
-                                        <option value="5">
-                                        <option value="6">
-                                        <option value="7">
-                                        <option value="8">
-                                        <option value="9">
-                                        <option value="10">
+                                        <option value="1" ></option>
+                                        <option value="2" ></option>
+                                        <option value="3" ></option>
+                                        <option value="4" ></option>
+                                        <option value="5" ></option>
+                                        <option value="6" ></option>
+                                        <option value="7" ></option>
+                                        <option value="8" ></option>
+                                        <option value="9" ></option>
+                                        <option value="10" ></option>
                                     </datalist>
+                                    <p>Value:<span id="rangeout"></span></p>
                                 </label>        
 
                                 <label>Storm Region<br/>
@@ -101,7 +102,7 @@
                                 <label class="inlines" ><input  type="radio" name="danger" value="maybe" checked>Maybe</label>
 
                                 <label>Additional Information</label>
-                                    <input class="inlines" type="text" name="moreInfo" >
+                                    <textarea class="inlines" rows="5" cols="1" name="moreInfo" ></textarea>
                                 
                             </fieldset>
                         <input id="button" type="submit" value="Report a Storm">
@@ -113,6 +114,7 @@
                 <span id="wp">&copy;</span><span id="year"></span><span> Weather Land  | Mtunzi S. Mavuma | <a id="whitelink" href=https://byui.edu/online>BYUI Online Learning</a> </span><br>
                 <span  id="yp"></span>
                 <script src="js/functions.js"></script>
+                <script src="js/rangelabels.js"></script>
                 <script src="js/fridayBanner.js"></script>
                 <script src="js/windchill.js"></script>
             </footer>
