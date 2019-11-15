@@ -10,7 +10,8 @@ h1,h2, p {text-align: center;
 }
 
 main div{ display:grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));        background-color: #aad6d3;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));        
+        background-color: #aad6d3;
         margin:2rem;
       }
 
