@@ -10,14 +10,15 @@ h1,h2, p {text-align: center;
 }
 
 main div{ display:grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        border:0.01rem #000000 solid ;
-        background-color: #aad6d3;
-     }
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));        background-color: #aad6d3;
+        margin:2rem;
+      }
 
 section{
-  border: solid 1px #000000;
-}
+        border: solid 1px #000000;
+        margin:1rem;
+        box-shadow:1rem 1rem 5rem #000000;
+      }
 
 header,footer {
                 text-align: center;
@@ -27,12 +28,12 @@ header,footer {
 }
 
 img{
-    display: block;
-    width: 300px;
-    height: 400px;
-    padding:1.5rem;
-    margin-left:auto;
-    margin-right:auto; 
+  display: block;
+  width: 200px;
+  height: 300px;
+  padding:0.25rem;
+  margin-left:auto;
+  margin-right:auto; 
 }
 
 
