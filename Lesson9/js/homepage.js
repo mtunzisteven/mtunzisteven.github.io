@@ -37,6 +37,7 @@ fetch(requestURL)
             p3.textContent = 'Annual Rain Fall: '+towns[i].averageRainfall;
 
             image.src = "images/"+towns[i].photo;
+            
             image.alt = towns[i].name;
             
 
