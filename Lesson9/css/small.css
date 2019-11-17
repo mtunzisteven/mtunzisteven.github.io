@@ -24,6 +24,10 @@ main div{ display:grid;
         margin:1rem;
       }
 
+div section:nth-child(1){order:3;}
+div section:nth-child(2){order:1;}
+div section:nth-child(3){order:2;}
+
 main div img{
     display:block;
     width: 250px;
