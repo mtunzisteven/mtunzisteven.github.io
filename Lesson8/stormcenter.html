@@ -50,17 +50,16 @@
                 <main>
                     <h1 class="heading">Report a Storm in Your Area</h1>
                     <form method="get" action="thanks.html">
-                        <fieldset>
-                            <legend>Personal Information</legend>
-                                <label>Full Name<span class="star">*</span><br/><input class="inlines" type="text" name="name" required pattern="[A-Za-z ]{5,99}"></label><br/>
-                                <label>Email<br/><input class="inlines" type="email" name="email" placeholder="name@gmail.com" ></label><br/>
-                                <label>Phone<span class="star">*</span><br/><input class="inlines" type="tel" name="phone" placeholder="12345678910" required></label><br/>
-                                <label>Zip Code<span class="star">*</span><br/><input class="inlines" type="number" name="zip" required ></label><br/>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Storm Details<br/></legend>
-                                <label>Storm Date<br/><input  class="date" type="date" name="date" ></label>
-                                <label  class="inlines" >Storm Type<br/>
+                        
+                            <h3>Personal Information</h3>
+                                <label>Full Name<span class="star">*</span><input class="inlines" type="text" placeholder="Full Name" name="name" required pattern="[A-Za-z ]{5,99}"></label>
+                                <label>Email<br/><input class="inlines" type="email" name="email" placeholder="name@gmail.com" ></label>
+                                <label>Phone<span class="star">*</span><br/><input class="inlines" type="tel" name="phone" placeholder="12345678910" required></label>
+                                <label>Zip Code<span class="star">*</span><br/><input class="inlines" type="number" placeholder="3610" name="zip" required ></label>
+                       
+                            <h3>Storm Details</h3>
+                                <label>Storm Date<input  class="date" type="date" name="date" ></label>
+                                <label  class="inlines" >Storm Type
                                     <select name="storm" >
                                         <option>Select</option>
                                         <option>Flash Flood</option>
@@ -70,24 +69,13 @@
                                         <option>Tornado</option>
                                     </select>
                                 </label>
-                                <label class="slidercon" for="severity">Storm Severity<br/>
-                                    <input class="range" list="list" type="range" id="severity" min="1" max="10" step="1" value="1" name="severity">
-                                    <datalist id="list" >
-                                        <option value="1" ></option>
-                                        <option value="2" ></option>
-                                        <option value="3" ></option>
-                                        <option value="4" ></option>
-                                        <option value="5" ></option>
-                                        <option value="6" ></option>
-                                        <option value="7" ></option>
-                                        <option value="8" ></option>
-                                        <option value="9" ></option>
-                                        <option value="10" ></option>
-                                    </datalist>
-                                    <p>Value:<span id="rangeout"></span></p>
-                                </label>        
+                                <label class="slidercon" for="severity">Storm Severity &nbsp;&nbsp;&nbsp;
+                                    <input class="range" list="tickmarks" type="range" id="severity" min="1" max="10" step="1" value="5" name="severity" 
+                                    >
+                                    <span id="rangeout" class="slidercon">5</span>
+                                </label>  
 
-                                <label>Storm Region<br/>
+                                <label>Storm Region
                                     <select class="date" type="number" >
                                         <option>Select</option>
                                         <option>Preston</option>
@@ -96,15 +84,15 @@
                                     </select>
                                 </label>
 
-                                <label class="choose">User in Danger</label>
+                                <fieldset><legend>User in Danger</legend>
                                 <label class="choose"><input type="radio" name="danger" value="yes" checked>Yes</label>
                                 <label class="choose"><input type="radio" name="danger" value="no" checked>No</label>
-                                <label class="inlines" ><input  type="radio" name="danger" value="maybe" checked>Maybe</label>
-
-                                <label>Additional Information</label>
+                                <label class="choose" ><input  type="radio" name="danger" value="maybe" checked>Maybe</label>
+                                </fieldset>
+                                <label>Additional Information
                                     <textarea class="inlines" rows="5" cols="1" name="moreInfo" ></textarea>
-                                
-                            </fieldset>
+                                </label>
+                           
                         <input id="button" type="submit" value="Report a Storm">
                     </form>       
                 </main>

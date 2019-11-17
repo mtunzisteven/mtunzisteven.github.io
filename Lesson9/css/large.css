@@ -1,0 +1,24 @@
+@media only screen and (min-width: 60em){
+    
+.hero-cd{
+        margin-top:-300px;
+        height:150px;
+
+  }
+
+.secondcon {padding-bottom: 7rem;
+
+}
+
+.top img{
+    width:30%;
+    padding-top:1rem;
+    height:auto;
+
+}
+
+main div{
+          grid-template-columns: 1fr 1fr 1fr;
+}
+
+}

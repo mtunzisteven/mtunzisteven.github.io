@@ -12,12 +12,11 @@ body {font-family: Ubuntu, sans-serif, Tahoma, sans-serif;
   }
 
 legend {
-        padding: 3rem;
+        padding: 1rem;
 }
 
 fieldset{
-        display: grid;
-        grid-template-columns: 1fr;
+        margin-bottom:1rem;
 
 
 }
@@ -30,20 +29,15 @@ input{
 
 .date{
         padding:0;
-        margin-bottom: 1rem;
         width:10rem;
 }
 
-.slidecon {
-    width: 100%;
-  }
-  
-input[type="range"]{
-    -webkit-appearance: none;
-    background: #d71920;
-    height: 2px;
+label{
+      display:block;
+      margin-bottom:1rem;;
 
-  }
+}
+
 
 #rangeout{
             color: #000000;
@@ -51,7 +45,10 @@ input[type="range"]{
             margin-left: 1rem;
   }
 
-
+.slidercon{
+            display: flex;
+            align-items: center;
+}
 
 .star{
         color: red;
@@ -59,7 +56,6 @@ input[type="range"]{
 
 .paraspace{
             margin-top:15rem;
-            margin-bottom:15rem;
             text-align:center;
 
 }
@@ -222,7 +218,7 @@ footer {
     padding: 1rem;
   }
 
-h2, h4 {text-align: center;
+h2, h3, h4 {text-align: center;
   
 }
 
@@ -241,11 +237,12 @@ h2, h4 {text-align: center;
             color:#000000;
 }
 
-h1 {color:#ffffff; 
-font-size: 30px;
-text-align: center;
-padding-top:1rem;
-margin-bottom: -1rem;
+h1 {
+    color:#ffffff; 
+    font-size: 30px;
+    text-align: center;
+    padding-top:1rem;
+    margin-bottom: 2rem;
 }
 
 li {font-size: 14px;
