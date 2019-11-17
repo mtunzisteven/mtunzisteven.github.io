@@ -27,7 +27,7 @@ fetch(requestURL)
             
             h2.textContent = towns[i].name;
 
-            h4.textContent = towns[i].moto;
+            h4.textContent = towns[i].motto;
 
             p1.textContent = 'Year Founded: '+towns[i].yearFounded;
 
