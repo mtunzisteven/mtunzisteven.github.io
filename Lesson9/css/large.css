@@ -16,6 +16,35 @@
     height:auto;
 
 }
+div section:nth-child(1) img{
+  float:none;
+  margin-right:auto;
+  margin-left:auto;
+  }
+  
+div section:nth-child(2) img{
+  float:none;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+div section:nth-child(3) img{   
+  float:none;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+
+div section:nth-child(1) {
+  display:block;
+}
+div section:nth-child(2) {
+  display:block;
+}
+div section:nth-child(3) {   
+  display:block;
+}
+
 
 main div{
           grid-template-columns: 1fr 1fr 1fr;

@@ -9,24 +9,42 @@
  nav  { padding-right:10%;
         padding-left:10%;
         background-color:#0b423e;
-        border:none;}
+        border:none;
+}
 
 nav ul {    flex-direction:row;
 }
 
+
 main div{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
 }
 
-.top img{
-                width:30%;
-                margin-left:1rem;
-                padding-bottom:5rem;
-                padding-top:3rem;
-                float:right;
-
-
+span{
+        width:70%;
 }
+
+div section:nth-child(1) {
+                                display:flex;
+                                padding:2rem;
+                                flex-flow: row-reverse;
+                                
+                        }
+
+
+div section:nth-child(2) {
+                                display:flex;
+                                padding:2rem;
+                                flex-flow: row-reverse;
+
+                        }
+div section:nth-child(3) {   
+                                display:flex;
+                                padding:2rem;
+
+                        }
+
+
 
 
 .scleft {margin-right:2rem;

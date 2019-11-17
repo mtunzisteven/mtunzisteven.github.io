@@ -22,6 +22,8 @@ fetch(requestURL)
 
             let p3 = document.createElement('p');
 
+            let span = document.createElement('span');
+
             let image = document.createElement('img');
             
             
@@ -38,12 +40,12 @@ fetch(requestURL)
             image.src = "images/"+towns[i].photo;
             image.alt = towns[i].name;
             
-
-            card.appendChild(h2);
-            card.appendChild(h4);
-            card.appendChild(p1);
-            card.appendChild(p2);
-            card.appendChild(p3);
+            span.appendChild(h2);
+            span.appendChild(h4);
+            span.appendChild(p1);
+            span.appendChild(p2);
+            span.appendChild(p3);
+            card.appendChild(span);
             card.appendChild(image);
 
             document.querySelector('div.cards').appendChild(card);
