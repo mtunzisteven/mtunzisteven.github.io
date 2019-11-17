@@ -24,7 +24,6 @@ fetch(requestURL)
 
             let image = document.createElement('img');
             
-
             
             h2.textContent = towns[i].name;
 
