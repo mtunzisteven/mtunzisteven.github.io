@@ -1,0 +1,48 @@
+
+
+body {font-family: Ubuntu, sans-serif, Tahoma, sans-serif;
+
+}
+
+
+h1,h2, p {text-align: center;
+  
+}
+
+main div{ display:grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));        
+        background-color: #0a5750;
+        box-shadow: 0rem 0rem 0.5rem 0.1rem #000000;
+        border-radius: 10px;
+        padding:3rem;
+        margin:1rem;
+      }
+
+section{
+        border: solid 1px #000000;
+        margin:0.25rem;
+        background-color:#ffffff;
+        box-shadow:0rem 0rem 0.5rem 0.1rem #000000;
+
+      }
+
+header,footer {
+                text-align: center;
+                padding: 2rem;
+                Background-color: #000000;
+                color: #ffffff;
+}
+
+img{
+  display: block;
+  width: 200px;
+  height: 300px;
+  padding:0.25rem;
+  margin-left:auto;
+  margin-right:auto; 
+}
+
+
+
+
+

@@ -1,0 +1,276 @@
+
+
+body {font-family: Ubuntu, sans-serif, Tahoma, sans-serif;
+
+}
+
+.heatainer{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+  
+  }
+
+legend {
+        padding: 1rem;
+}
+
+fieldset{
+        margin-bottom:1rem;
+
+
+}
+
+#banner{  display:none;
+    background-color: #f7b32b;
+    height: 50px;
+    border: solid;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 18px;
+    }
+
+input{
+        font-size:16px;
+        padding-top: 0.5rem;
+        padding-bottom:0.5rem;
+    }
+
+.date{
+        padding:0;
+        width:10rem;
+}
+
+label{
+      display:block;
+      margin-bottom:1rem;;
+
+}
+
+
+#rangeout{
+            color: #000000;
+            font-size: 20;
+            margin-left: 1rem;
+  }
+
+.slidercon{
+            display: flex;
+            align-items: center;
+}
+
+.star{
+        color: red;
+}
+
+.paraspace{
+            margin-top:15rem;
+            text-align:center;
+
+}
+
+.choose{
+        padding-bottom:0.5rem;
+}
+
+.current{background-color: #d71920;}
+
+.inlines, .txtarea{
+
+    margin-bottom: 1rem;
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+
+}
+#button{
+        text-align:center;
+        padding: 0.5rem;
+        color: white;
+        background-color:#d71920;
+        border-color: #ffffff;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        border-radius: 8px;
+}
+
+#button:hover{
+                background-color:#f7b32b;
+                color: #000000;
+                border-color: #000000;
+}
+
+.txtarea{
+
+    padding-bottom:5rem;
+}
+
+
+table, caption{
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: 30px;
+      box-shadow: 5px 5px 8px #000000 ;
+}
+
+th {
+    background-color:#628ca6;
+    color: #ffffff;
+
+}
+
+th,td, caption {
+      padding:5px;
+      border: 0.4px solid #b8beb9  ;
+
+}
+
+table{
+    background-color:#e7f0ed;
+    text-align: center;
+    border-collapse: collapse;
+   }
+
+tr:nth-child(even){
+                      background-color:#e7ffed;
+}
+
+tfoot tr td{
+            background-color:#7fb9c2 ;
+            font-size: 0.6rem;
+            line-height: 20px;
+            text-align: center;
+}
+
+caption {
+    background-color:#7fb9c2;
+    line-height:0.2rem;
+    margin:0;
+
+
+}
+
+#chosencell{
+              background-color:#628ca6;
+              color:#ffffff;
+}
+
+
+
+body {font-family: Ubuntu, Verdana, Tahoma, sans-serif;
+
+}
+
+header {
+
+    color:#ffffff;
+    background-color:#32b5aa;
+    text-align: center;
+}
+
+/*****        Navigation Menu        *****/
+.navigation li:first-child{display:block;}
+/** The above is for the mobile. Only it is shown*/
+
+/** The above is for the mobile. Below aren't shown*/
+.navigation li{display:none;}
+    
+nav a  {display: block;
+        color:white;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+        font-size:15px;
+      }
+
+nav ul  {display: flex;
+      flex-direction:column;
+      list-style-type: none;
+      margin:0;
+      padding:0;
+      overflow: hidden;
+
+      }
+
+nav li  {flex: 1 1 100%;}
+
+/*******This part is for styling the dropdown menu*******/
+nav a:hover{color: black;
+            background-color:#f7b32b;
+            border-color: #d71920;
+      }
+
+nav a:active{
+             color: #f7b32b;
+             background-color:white;
+    }
+.responsive li:first-child {
+                            background-color:#000000;       
+
+}
+
+.responsive a{color:#ffffff;}
+
+.responsive li {
+                display:block;
+                background-color:#d71920;
+
+}
+
+  /**********************************/
+
+  
+footer {
+    color:white;
+    background-color:#32b5aa;
+    text-align: center;
+    padding: 1rem;
+  }
+
+h2, h3, h4 {text-align: center;
+  
+}
+
+.wrapper{ 
+        border:0.01rem #000000 solid ;
+        margin-top:1.2rem;
+        background-color: #aad6d3;
+        padding:3rem;
+        margin-right:10%;
+        margin-left:10%;
+        margin-bottom: 2rem;
+        box-shadow: 5px 5px 12px #000000;
+}
+
+.heading{
+            color:#000000;
+}
+
+h1 {
+    color:#ffffff; 
+    font-size: 30px;
+    text-align: center;
+    padding-top:1rem;
+    margin-bottom: 2rem;
+}
+
+li {font-size: 14px;
+margin-bottom:0px;}
+
+#wp,#year,#whitelink {text-align: center; 
+                  color:white;
+                  padding-top:50px;}
+
+#wp {
+font-size: 12px;}
+
+#yp {
+      color:yellow;
+      text-align:center; 
+      font-size: 11px;
+      
+
+}
+
+
+

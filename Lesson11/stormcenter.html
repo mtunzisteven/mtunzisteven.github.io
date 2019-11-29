@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <title>Preston Weather Page</title>
+        <meta charset="utf-8">
+        <meta name="description" content="This page shows the weather of the area named Preston">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="storm_css/normalize.css">
+        <link rel="stylesheet" href="storm_css/small.css">
+        <link rel="stylesheet" href="storm_css/medium.css">
+        <link rel="stylesheet" href="storm_css/large.css">
+
+
+
+        <!--Google fonts API link: Ubuntu--><!--
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">-->
+    </head>    
+
+    <body onload="friday()" >
+        <div id= "banner"></div>
+        <header>
+            <div class="heatainer">
+            <img class=" logo" alt="wetherland logo" width="100" src="images/iconfinder_10_1208025.png">
+
+                <div>
+                    <h1>Weather Land</h1>
+                    <h4><em>Getting you future ready!</em></h4>
+                </div>  
+            </div> 
+        
+            <nav>
+                <ul class="navigation">
+                    <li><a onclick="toggleMenu()">&#9776;Menu</a></li>               
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston.html">Preston</a></li>
+                    <li><a href="sodasprings.html">Soda Springs</a></li>
+                    <li><a href="fishhaven.html">Fish Haven</a></li>    
+                    <li class="current"><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>          
+                </ul>
+            </nav>
+                
+        </header>
+
+           
+            <div class="wrapper">
+                <main>
+                    <h1 class="heading">Report a Storm in Your Area</h1>
+                    <form method="get" action="thanks.html">
+                        
+                            <h3>Personal Information</h3>
+                                <label>Full Name<span class="star">*</span><input class="inlines" type="text" placeholder="Full Name" name="name" required pattern="[A-Za-z ]{5,99}"></label>
+                                <label>Email<br/><input class="inlines" type="email" name="email" placeholder="name@gmail.com" ></label>
+                                <label>Phone<span class="star">*</span><br/><input class="inlines" type="tel" name="phone" placeholder="12345678910" required></label>
+                                <label>Zip Code<span class="star">*</span><br/><input class="inlines" type="number" placeholder="3610" name="zip" required ></label>
+                       
+                            <h3>Storm Details</h3>
+                                <label>Storm Date<input  class="date" type="date" name="date" ></label>
+                                <label  class="inlines" >Storm Type
+                                    <select name="storm" >
+                                        <option>Select</option>
+                                        <option>Flash Flood</option>
+                                        <option>Hail</option>
+                                        <option>Hurricane</option>
+                                        <option>Thunderstorm</option>
+                                        <option>Tornado</option>
+                                    </select>
+                                </label>
+                                <label class="slidercon" for="severity">Storm Severity &nbsp;&nbsp;&nbsp;
+                                    <input class="range" list="tickmarks" type="range" id="severity" min="1" max="10" step="1" value="5" name="severity" 
+                                    >
+                                    <span id="rangeout" class="slidercon">5</span>
+                                </label>  
+
+                                <label>Storm Region
+                                    <select class="date" type="number" >
+                                        <option>Select</option>
+                                        <option>Preston</option>
+                                        <option>Soda Springs</option>
+                                        <option>Fish Haven</option>
+                                    </select>
+                                </label>
+
+                                <fieldset><legend>User in Danger</legend>
+                                <label class="choose"><input type="radio" name="danger" value="yes" checked>Yes</label>
+                                <label class="choose"><input type="radio" name="danger" value="no" checked>No</label>
+                                <label class="choose" ><input  type="radio" name="danger" value="maybe" checked>Maybe</label>
+                                </fieldset>
+                                <label>Additional Information
+                                    <textarea class="inlines" rows="5" cols="1" name="moreInfo" ></textarea>
+                                </label>
+                           
+                        <input id="button" type="submit" value="Report a Storm">
+                    </form>       
+                </main>
+            </div>
+        
+            <footer>
+                <span id="wp">&copy;</span><span id="year"></span><span> Weather Land  | Mtunzi S. Mavuma | <a id="whitelink" href=https://byui.edu/online>BYUI Online Learning</a> </span><br>
+                <span  id="yp"></span>
+                <script src="storm_js/functions.js"></script>
+                <script src="storm_js/rangelabels.js"></script>
+                <script src="js/fridayBanner.js"></script>
+                <script src="storm_js/windchill.js"></script>
+            </footer>
+        </div>
+        <!--                                                                                 -->
+        <!--A better way to reference Google fonts, or any other font API for that matter-->
+        <!--Latest version(1.6.28) doesn't work-->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <!--                                                              -->
+
+        <!--                                                              -->
+        <!--Calling the specific fonts that I want to use on my website-->
+        <!--Creating a function for this script and adding it from there doesn't work.
+        referencing it from here is how it got to work properly-->
+        <script>WebFont.load({google: {families: ['Ubuntu']}});</script>
+        <!--                                                                                 -->
+    </body>
+
+</html>
+
+
+
+
