@@ -1,4 +1,4 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=1bef5cf9eb54259c06a15a005ac69e69&units=imperial';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&APPID=1bef5cf9eb54259c06a15a005ac69e69&units=imperial';
 
 fetch(apiURL)
     .then((response) => response.json())
@@ -21,7 +21,7 @@ else {
 } 
 
     });
-const daysURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=1bef5cf9eb54259c06a15a005ac69e69&units=imperial';
+const daysURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&APPID=1bef5cf9eb54259c06a15a005ac69e69&units=imperial';
 
 fetch(daysURL)
     .then((response) => response.json())
@@ -51,8 +51,6 @@ fetch(daysURL)
         }
     })
 
-
-
     const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
     fetch(requestURL)
@@ -66,7 +64,7 @@ fetch(daysURL)
     
         
         for (let i = 0; i < towns.length; i++ ) {
-            if(towns[i].name == "Preston"){
+            if(towns[i].name == "Fish Haven"){
                 let card = document.createElement('section');
                 let p1 = document.createElement('p');
                 let p2 = document.createElement('p');
@@ -85,6 +83,3 @@ fetch(daysURL)
         }
         
     });
-    
-    
-    

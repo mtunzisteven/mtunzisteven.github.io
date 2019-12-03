@@ -21,9 +21,9 @@ nav ul {    flex-direction:row;
 
 div .scleft img{
                 width:30%;
-                margin-left:1rem;
-                padding-bottom:5rem;
-                padding-top:3rem;
+                margin-left:2rem;
+                margin-bottom:5rem;
+                margin-top:3rem;
                 float:right;
 
 
@@ -68,23 +68,24 @@ div .scleft img{
             
 }
 
-.thirdcon{padding-bottom:7rem;
+.thirdcon{padding-bottom:2rem;
           }
 
 .map {  float:left;
-        margin:1rem;
+        margin:2rem;
         width: 35%;
-        padding-top: 3rem;
 }
 
 .contacts {
-        margin-top:8rem;
+        margin:4rem;
         text-align: center;
 }
 
-.details{   margin-left: 1rem;
+.details{   
             font-size:14px; 
             text-align: center;
+            margin:1rem;
+            padding-right:2.5rem;
                
 }
 
@@ -121,5 +122,9 @@ div .scleft img{
 }
 
 .firstcon, .tcleft{display:block;}
+
+.towncontent h3{
+        text-align: center;
+}
 
 }

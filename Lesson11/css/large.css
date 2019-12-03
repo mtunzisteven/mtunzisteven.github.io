@@ -6,13 +6,15 @@
 
   }
 
-.secondcon {padding-bottom: 7rem;
+.secondcon {padding-bottom: 4rem;
 
 }
 
 div .scleft img{
     width:30%;
-    padding-top:1rem;
+    padding:0;
+    margin-top:0;
+    margin-left:2rem;
     height:auto;
 
 }
@@ -25,15 +27,12 @@ padding-top: 15px;
 .thirdcon{padding-bottom:7rem;
   }
 
+
 .map {  float:left;
         width:25%;
-        padding:0;
-        margin: 0;
-        margin-bottom:1rem;
-        margin-top:1rem;
-        padding-left:2rem;
-        padding-top: 4rem;
-        height:auto;
+        margin: 6rem;
+        margin-bottom:4rem;
+
 }
 
 .contacts {
@@ -47,5 +46,9 @@ text-align: center;
        
 }
 
+.towncontent{
+            padding-left: 35%;
+            padding-right:35%;
+}
 
 }

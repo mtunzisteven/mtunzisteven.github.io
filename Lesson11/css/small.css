@@ -71,9 +71,20 @@ h2, h4 {text-align: center;
 
 .firstcon, .tcleft{display:none;}
 
-.map{ width: 50%;
-      padding-top: 20px;
+.towncontent{
+              border: 1px Solid Black;
+              text-align: center;
+              color: #ffffff;
+              margin-top: 1.2rem;
+
+              background-color: #d71920;
 }
+
+
+.map{ width: 50%;
+      box-shadow: 0px 0px 10px 5px #000000;
+}
+
 
 .heatainer{
             display:flex;
@@ -136,19 +147,23 @@ font-size: 12px;}
   opacity: 0.80;
   margin-top: -150px;
   margin-left: 20px;
+  padding: 0.5rem;
   box-shadow: 0px 0px 10px 5px #000000;
 }
 
-div .hero-cd-heading {margin:0;
+div .hero-cd th{margin:0;
                       text-align:center;
                       border-bottom: solid;
                       border-width: 0.7px;
+                      font-size: 14px;
 }
 
 /* When I add padding to sides, the images grows beyond the boundery of viewport*/
 .scleft img{width: 100%;
-            padding-top: 20px;
+            margin-top: 10px;
+            box-shadow: 0px 0px 10px 5px #000000;
 }
+
 
 .article{text-align:justify;}
 .AH3 {text-align:center;}
@@ -179,3 +194,6 @@ CSS above doesn't apply to my HTML unless directly apply through style atribute 
           font-size: 18px;
           }
 
+.towncontent h3{
+            text-align: center;
+}
