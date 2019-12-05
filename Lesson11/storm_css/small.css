@@ -10,10 +10,7 @@ body {font-family: Ubuntu, sans-serif, Tahoma, sans-serif;
     justify-content: center;
   
   }
-.tophead{
-        margin:0;
-        padding:0;
-}
+
 legend {
         padding: 1rem;
 }
@@ -269,6 +266,9 @@ font-size: 12px;}
       
 
 }
-
+.tophead{
+    margin:0;
+    padding:0;
+}
 
 
