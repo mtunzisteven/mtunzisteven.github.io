@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <title>Preston Weather Page</title>
+        <meta charset="utf-8">
+        <meta name="description" content="This page shows the weather of the area named Preston">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+
+
+
+        <!--Google fonts API link: Ubuntu--><!--
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">-->
+    </head>    
+
+    <body>
+        <header>
+             
+            <div class="logocont">
+                <img class=" logo" alt="Temple Inn & Suites logo" width="100" src="images/logo.png">
+                <div>
+                    <h1>Temple Inn & Suites</h1>
+                    <h4><em>Rest well, prepare peacefully</em></h4>
+                </div>  
+            </div> 
+            <nav>
+                <ul id="navcol" class="navigation">
+                    <li><a onclick="toggleMenu()">&#9776;Menu</a></li>               
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li id="current"><a href="reservation.html">Reservations</a></li>    
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="temple missionary.html">Missionary</a></li>
+                    <li><a href="Reception.html">Reception</a></li>        
+                </ul>
+            </nav>
+                
+        </header>
+        <div class="hero-div">
+            <picture  >
+                <source media="(min-width: 60em)" srcset="images/Columbus.jpg">
+                <source media="(min-width: 39.5em)" srcset="images/Atlanta.jpg">
+                <img style="width:100%;" src="images/BillingsMontana.jpg" alt="Temple Image">
+              </picture>
+        </div>
+
+        <div class="hero-cd">
+            <h2>Temple Inn & Suite</h2>
+            <h4><em>Enjoy a peaceful stay right near the temple, with the best ammenities for preparing for your temple visit.</em></h4>
+        </div> 
+            
+            <h2>
+                Preston, Idaho
+            </h2>
+
+            <div class="hero-div">
+                <picture  >
+                    <source media="(min-width: 60em)" srcset="images/HeroLarge.jpg">
+                    <source media="(min-width: 39.5em)" srcset="images/HeroMed.jpg">
+                    <img style="width:100%;" src="images/HeroSmall.jpg" alt="Dawning Day">
+                  </picture>
+                
+                  <div class="hero-cd">
+                    <table>
+                        <tr>
+                            <th colspan="3">
+                                Weather Summary
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>Currently</td>
+                            <td>: </td>
+                            <td><span id="currently"></span> </td>
+                        </tr>
+                        <tr>
+                            <td>High</td> 
+                            <td>: </td>
+                            <td><span id="high"></span> </td>
+                        </tr>
+                        <tr>
+                            <td>Wind Speed</td>
+                            <td>: </td>
+                            <td><span id="speed"></span> </td>
+                        </tr>
+                        <tr>
+                            <td>Wind chill</td>
+                            <td>: </td>
+                            <td><span id="wind"></span> </td>
+                        </tr>
+                        <tr>
+                            <td>humidity</td>
+                            <td>: </td>
+                            <td><span id="humidity"></span>  </td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
+
+            <div class="firstcon">
+                <h3 class="focust">5 Day Forcast</h3>
+
+                <div class="wfparent">
+                    <div class="wfchildren">
+                        <div id="day1" class="forcast"></div>
+                        <img src="#" alt="" id="icon1" class="fimg">   
+                        <div id="temp1" class="temp"></div>     
+                    </div>   
+                    <div class="wfchildren">
+                        <div id="day2" class="forcast"></div>
+                        <img src="#" alt="" id="icon2" class="fimg">   
+                        <div id="temp2" class="temp"></div>     
+                    </div> 
+                    <div class="wfchildren">
+                        <div id="day3" class="forcast"></div>
+                        <img src="#" alt="" id="icon3" class="fimg">   
+                        <div id="temp3" class="temp"></div>     
+                    </div> 
+                    <div class="wfchildren">
+                        <div id="day4" class="forcast"></div>
+                        <img src="#" alt="" id="icon4" class="fimg">   
+                        <div id="temp4" class="temp"></div>     
+                    </div> 
+                    <div class="wfchildren">
+                        <div id="day5" class="forcast"></div>
+                        <img src="#" alt="" id="icon5" class="fimg">   
+                        <div id="temp5" class="temp"></div>     
+                    </div>          
+                </div>
+
+            </div>
+
+           
+            <div class="secondcon">
+                <div class="scleft">
+                    <img alt="Ocean Lovers" src="images/astro.jpg">
+                </div>
+                <div class="scright">
+                    <h3 class="AH3">December astronomy preview: 3 events stargazers won’t want to miss</h3>
+                    <p class="AH3"><em>By Brian Lada, AccuWeather meteorologist and staff writer</em></p>
+                    <p class="article">December will bring not only the official start to winter, but also the longest nights of the year. And to delight of stargazers worldwide, there will be plenty to see in the night sky.
+
+                        Here are the top astronomy events to mark on your calendar in December:
+                           </p>
+                            
+                        <a target="blank" href="https://www.accuweather.com/en/space-news/december-astronomy-preview-3-events-stargazers-wont-want-to-miss/637159"><p class="AH3"><strong>read more</strong></p></a>
+                </div>
+            </div>
+            <div class="towncontent">
+                <h3>Upcoming Events:</h3>
+
+            </div>
+
+            <div class="thirdcon">
+                    <div class="tcleft">
+                        <img alt="Map of Preston" class="map" src="images/MapOp.jpg">
+                    </div>
+
+                    <div class="tcright">
+                        
+                        <h3 class="contacts">Contact Details</h3>
+                       
+
+                        <p class="details">&#128205; 1 First try Street, USA</p>
+                        <p class="details">&#128222; +1 23 655 5646</p>
+                        <p class="details">&#128231; info@weatherland.online</p>
+                    </div>
+            </div>
+            
+        
+            <footer>
+                <span id="wp">&copy;</span><span id="year"></span><span> Temples Inn & Suites  | <a id="whitelink" href="#">Bethesda, MD</a> </span><br>
+                <span  id="yp"></span>
+                <script src="js/functions.js"></script>
+                <script src="js/fridayBanner.js"></script>
+                <script src="js/preston.js"></script>
+            </footer>
+        </div>
+        <!--                                                                                 -->
+        <!--A better way to reference Google fonts, or any other font API for that matter-->
+        <!--Latest version(1.6.28) doesn't work-->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <!--                                                              -->
+
+        <!--                                                              -->
+        <!--Calling the specific fonts that I want to use on my website-->
+        <!--Creating a function for this script and adding it from there doesn't work.
+        referencing it from here is how it got to work properly-->
+        <script>WebFont.load({google: {families: ['Ubuntu']}});</script>
+        <!--                                                                                 -->
+    </body>
+
+</html>

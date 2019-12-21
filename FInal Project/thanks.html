@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <title>Preston Weather Page</title>
+        <meta charset="utf-8">
+        <meta name="description" content="This page shows the weather of the area named Preston">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="storm_css/normalize.css">
+        <link rel="stylesheet" href="storm_css/small.css">
+        <link rel="stylesheet" href="storm_css/medium.css">
+        <link rel="stylesheet" href="storm_css/large.css">
+
+
+
+  </head>    
+
+    <body >
+        <header> 
+            <div class="logocont">
+                <img class=" logo" alt="Temple Inn & Suites logo" width="100" src="images/logo.png">
+                <div>
+                    <h1>Temple Inn & Suites</h1>
+                    <h4><em>Rest well, prepare peacefully</em></h4>
+                </div>  
+            </div> 
+            <nav>
+                <ul id="navcol" class="navigation">
+                    <li><a onclick="toggleMenu()">&#9776;Menu</a></li>               
+                    <li><a href="index.html">Home</a></li>
+                    <li id="current"><a href="temples.html">Temples</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>    
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="temple missionary.html">Missionary</a></li>
+                    <li><a href="Reception.html">Reception</a></li>             
+                </ul>
+            </nav>
+                
+        </header>
+        <div class="hero-div">
+            <picture  >
+                <source media="(min-width: 60em)" srcset="images/Columbus.jpg">
+                <source media="(min-width: 39.5em)" srcset="images/Atlanta.jpg">
+                <img style="width:100%;" src="images/BillingsMontana.jpg" alt="Temple Image">
+              </picture>
+        </div>
+
+        <div class="hero-cd">
+            <h2>Temple Inn & Suite</h2>
+            <h4><em>Enjoy a peaceful stay right near the temple, with the best ammenities for preparing for your temple visit.</em></h4>
+        </div>  
+       
+
+           
+            <p class="paraspace">Thank you for sending us the report. We really appreciate it and we'll take the necessary steps.</p>
+        
+            <footer>
+                <span id="wp">&copy;</span><span id="year"></span><span> Temples Inn & Suites  | <a id="whitelink" href="#">Bethesda, MD</a> </span><br>
+                <span  id="yp"></span>
+                <script src="storm/js/functions.js"></script>
+                <script src="storm/js/fridayBanner.js"></script>
+                <script src="storm/js/windchill.js"></script>
+            </footer>
+        </div>
+        <!--                                                                                 -->
+        <!--A better way to reference Google fonts, or any other font API for that matter-->
+        <!--Latest version(1.6.28) doesn't work-->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <!--                                                              -->
+
+        <!--                                                              -->
+        <!--Calling the specific fonts that I want to use on my website-->
+        <!--Creating a function for this script and adding it from there doesn't work.
+        referencing it from here is how it got to work properly-->
+        <script>WebFont.load({google: {families: ['Ubuntu']}});</script>
+        <!--                                                                                 -->
+    </body>
+
+</html>
+
+
+
+

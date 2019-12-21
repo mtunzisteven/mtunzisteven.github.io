@@ -1,0 +1,53 @@
+@media only screen and (min-width: 60em){
+    
+.hero-cd{
+        margin-top:-300px;
+        height:150px;
+
+  }
+
+.secondcon {padding-bottom: 7rem;
+
+}
+
+.top img{
+    width:30%;
+    padding-top:1rem;
+    height:auto;
+
+}
+div section:nth-child(1) img{
+  float:none;
+  margin-right:auto;
+  margin-left:auto;
+  }
+  
+div section:nth-child(2) img{
+  float:none;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+div section:nth-child(3) img{   
+  float:none;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+
+div section:nth-child(1) {
+  display:block;
+}
+div section:nth-child(2) {
+  display:block;
+}
+div section:nth-child(3) {   
+  display:block;
+}
+
+
+main div{
+          grid-template-columns: 1fr 1fr 1fr;
+}
+
+}
