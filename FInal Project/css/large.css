@@ -7,7 +7,7 @@
 
 
 .tpMain{
-  grid-template-columns: 1fr 1fr  1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 div .scleft img{
     width:30%;
@@ -16,33 +16,6 @@ div .scleft img{
     margin-left:2rem;
     height:auto;
 
-}
-
-.scleft, .scright{margin:1rem;}
-
-.scleft {margin-right:2rem;
-padding-top: 15px;        
-}
-.thirdcon{padding-bottom:7rem;
-  }
-
-
-.map {  float:left;
-        width:25%;
-        margin: 6rem;
-        margin-bottom:4rem;
-
-}
-
-.contacts {
-margin-top:8rem;
-text-align: center;
-}
-
-.details{   margin-left: 1rem;
-    font-size:14px; 
-    text-align: center;
-       
 }
 
 

@@ -110,17 +110,6 @@ h2, h4 {text-align: center;
   
 }
 
-.firstcon, .secondcon, .thirdcon{ border:0.01rem #000000 solid ;
-                                  margin-top:1.2rem;
-                                  background-color: #a9c3cc;
-                                  padding-right:0.5rem;
-                                  padding-left:0.5rem;
-}
-
-.firstcon, .tcleft{display:none;}
-
-
-
 .logocont{
             display:block;
             align-content: center;
@@ -225,15 +214,8 @@ div .hero-cd th{margin:0;
   box-shadow:0 0 15px 5px #000000;
 }
 
-.article{text-align:justify;}
-.AH3 {text-align:center;}
-.details, .contacts{text-align: center;}
 
-#current{background-color: #a25c45;}
-
-.scright, .scleft{margin: 0.51rem;}
+.current{background-color: #a25c45;}
 
 
-.scright h3 {margin-bottom:-1.3rem;}
-.scright p em {font-size: 10px;}
 

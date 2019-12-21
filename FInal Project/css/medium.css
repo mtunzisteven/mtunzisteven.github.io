@@ -20,80 +20,11 @@ nav a {
 nav ul {    flex-direction:row;
 }
 
-.AH3 {text-align:left;}
 
-.firstcon{display:block;}
 
 .tpMain{
         grid-template-columns: 1fr 1fr;
 }
-
-div .scleft img{
-                width:30%;
-                margin-left:2rem;
-                margin-bottom:5rem;
-                margin-top:3rem;
-                float:right;
-
-
-}
-
-.scleft, .scright{margin:1rem;}
-
-.scleft {margin-right:2rem;
-            padding-top: 15px;        
-}
-
-
-.focust{text-align:center;}
-
-.temp{
-        font-size: 20px;
-        padding-bottom: 1rem;
-}
-
-.fimg{
-        width:6rem;
-}
-.wfparent{  display:grid;
-            max-width: 700px;
-            margin: 0 auto;
-            grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-}
-
-.wfparent .wfchildren{  margin:0.1rem;
-                        padding: 0rem;
-                        margin-top:0;
-                        margin-bottom:1rem;
-                        text-align: center;
-                        background-color:white;
-                        font-size:50px;
-                        box-shadow: 2px 2px 5px black;
-                        
-
-}
-
-.innertext{font-size:16px;
-            
-}
-
-.thirdcon{padding-bottom:2rem;
-          }
-
-
-.contacts {
-        margin:4rem;
-        text-align: center;
-}
-
-.details{   
-            font-size:14px; 
-            text-align: center;
-            margin:1rem;
-            padding-right:2.5rem;
-               
-}
-
 
 .hero-cd{
         margin-top:-210px;
@@ -106,9 +37,6 @@ div .scleft img{
                         
 
 .hero-cd-heading{font-size: 17px;}
-
-
-.firstcon, .tcleft{display:block;}
 
 
 }
