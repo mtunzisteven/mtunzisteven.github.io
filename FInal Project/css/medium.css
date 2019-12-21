@@ -43,6 +43,20 @@ nav ul {    flex-direction:row;
         flex-direction:column;
 }
 
+form main{
+        margin-left:30%;
+        margin-right:30%;
+        }
+
+form label{
+        text-align:center;
+}
+
+.sub{
+        position:absolute;
+        width:13rem;
+}
+
 .sub li:first-child {
         background-color:#000000;
         display:block;

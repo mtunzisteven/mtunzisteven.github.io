@@ -218,4 +218,28 @@ div .hero-cd th{margin:0;
 .current{background-color: #a25c45;}
 
 
+.sub{
+  width:100%;
+  align-content:center;
+
+}
+
+.sub li:first-child {
+  background-color:#4f5a5e;
+  display:block;
+
+}
+
+.sub li {
+  display:none;
+
+
+}
+
+.respond li {
+  display:block;
+  background-color:#a25c45;
+
+}
+
 
