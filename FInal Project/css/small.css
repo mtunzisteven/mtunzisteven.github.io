@@ -144,19 +144,79 @@ figure img{
 
 .close{
   padding:1rem;
+  display:flex;
+  margin:1rem;
+  border: 1px solid #000000;
 }
 .close h2{
   text-align:left;
+  padding-left: 1%;
+  padding-right:1%;
 }
 
 .close h3{
   text-align:left;
+  padding-left: 1%;
+  padding-right:1%;
+}
+
+.close img{
+  display:block;
+  max-width: 100%;
+  height:auto;
+  margin-left: auto;
+  margin-right:auto;
+
 }
 
 .close p{
   text-align:left;
   font-size:16px;
+  width: 400px;
 
+  padding-left: 1%;
+  padding-right:1%;
+
+}
+
+
+.close :nth-child(1) img{
+  float:none;
+  margin-right:auto;
+  margin-left:auto;
+  }
+  
+.close :nth-child(2) img{
+  float:none;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.close :nth-child(3) img{   
+  float:none;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.close :nth-child(4) img{   
+  float:none;
+  margin-right:auto;
+  margin-left:auto;
+}
+.close :nth-child(1){   
+    display:block;
+}
+
+.close :nth-child(2){   
+  display:block;
+}
+
+.close :nth-child(3){   
+  display:block;
+}
+
+.close :nth-child(4){   
+  display:block;
 }
 
 footer {

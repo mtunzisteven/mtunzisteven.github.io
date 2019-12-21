@@ -19,7 +19,7 @@ fetch(requestURL)
                 let dedicated = document.createElement('p');
                 let image = document.createElement('img');
                 let thisYear = document.createElement('p');
-                let nextYear = document.createElement('h3');
+                let nextYear = document.createElement('p');
                 let address = document.createElement('p');
                 let tel = document.createElement('p');
                 let info = document.createElement('span');
