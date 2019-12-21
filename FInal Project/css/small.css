@@ -39,25 +39,28 @@ nav ul  {display: flex;
 
 button{
   background-color: #a25c45;
-  color:#ffffff;
+  color:#000000;
   border-radius: 1rem;
-  border-color:#ffffff;
+  width: 100px;
+  height: 2.5rem;
+  border-color:#a25c45;
 }
 
 button:hover{
   background-color: #ffffff;
   color: #000000;
-  border-color:#000000;
+  border-color:#ffffff;
+  box-shadow: 0px 0px 10px 5px #000000;
 }
 
-button a{text-decoration: none;}
+a button{text-decoration: none;}
 
-button a h2{
+a button  {
   color:#ffffff;
   text-decoration: none;
 }
 
-button a h2:hover{
+a button :hover{
   color: #000000;
 }
 
