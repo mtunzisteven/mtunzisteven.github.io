@@ -46,7 +46,7 @@ fetch(requestURL)
                 info.appendChild(h3);
                 info.appendChild(thisYear);
                 info.appendChild(nextYear);
-                closures.appendChild(info);
+                closures.appendChild(info); 
                 
                 document.querySelector('div.close').appendChild(closures);
 
