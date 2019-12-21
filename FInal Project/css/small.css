@@ -37,6 +37,30 @@ nav ul  {display: flex;
 
       }
 
+button{
+  background-color: #a25c45;
+  color:#ffffff;
+  border-radius: 1rem;
+  border-color:#ffffff;
+}
+
+button:hover{
+  background-color: #ffffff;
+  color: #000000;
+  border-color:#000000;
+}
+
+button a{text-decoration: none;}
+
+button a h2{
+  color:#ffffff;
+  text-decoration: none;
+}
+
+button a h2:hover{
+  color: #000000;
+}
+
 nav li  {flex: 1 1 100%;}
 
 
@@ -150,13 +174,16 @@ div .hero-cd th{margin:0;
                       font-size: 14px;
 }
 
-
+.summary{
+  padding: 5%;
+  background-color:#a25c45;
+}
 
 .tpMain, .bodive2{
   display: grid;
   text-align:center;
   grid-template-columns: 1fr;
-  background-color:#a25c45;
+  background-color:#ffffff;
 }
 
 .tpMain div{
