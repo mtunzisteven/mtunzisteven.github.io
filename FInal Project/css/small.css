@@ -138,7 +138,26 @@ nav a:active{color: #a25c45;
     background-color:white;
     }
 
+figure img{
+  width:400px;
+}
 
+.close{
+  padding:1rem;
+}
+.close h2{
+  text-align:left;
+}
+
+.close h3{
+  text-align:left;
+}
+
+.close p{
+  text-align:left;
+  font-size:16px;
+
+}
 
 footer {
     color:#ffffff;
