@@ -40,5 +40,8 @@
      document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
  }
 
+ function subMenu(){
+    document.getElementsByClassName("sub")[0].classList.toggle("respond");
+}
 
 

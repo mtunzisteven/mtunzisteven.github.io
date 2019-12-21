@@ -38,5 +38,27 @@ nav ul {    flex-direction:row;
 
 .hero-cd-heading{font-size: 17px;}
 
+.sub{
+        display:flex;
+        flex-direction:column;
+}
+
+.sub li:first-child {
+        background-color:#000000;
+        display:block;
+      
+      }
+
+.sub li {
+        display:none;
+        background-color:#a25c45;
+      
+      }
+
+.respond li {
+        display:block;
+        background-color:#a25c45;
+      
+      }
 
 }
