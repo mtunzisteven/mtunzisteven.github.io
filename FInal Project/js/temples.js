@@ -50,7 +50,7 @@ fetch(requestURL)
                 
                 document.querySelector('div.close').appendChild(closures);
 
-                const twenty = temples[i]['nextYear'];
+                const twenty = temples[i]['this2020'];
                 for (let j = 0; j < twenty.length; j++){
                     let eachDate = document.createElement('p');
 
