@@ -24,6 +24,9 @@ nav ul {    flex-direction:row;
 
 .firstcon{display:block;}
 
+.tpMain{
+        grid-template-columns: 1fr 1fr;
+}
 
 div .scleft img{
                 width:30%;

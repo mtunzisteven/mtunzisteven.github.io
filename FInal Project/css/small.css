@@ -152,15 +152,27 @@ div .hero-cd th{margin:0;
 
 
 
-.tpMain{
+.tpMain, .bodive2{
   display: grid;
+  text-align:center;
   grid-template-columns: 1fr;
-  align-content: center;
   background-color:#a25c45;
 }
 
 .tpMain div{
-  align-content: center;
+ margin-left:auto;
+ margin-right: auto;
+ padding-top:2rem;
+ padding-bottom:2rem;
+}
+
+.tpMain div img{
+  width: 80%;
+  height: auto;
+}
+
+.tpMain div img:hover{
+  box-shadow:0 0 15px 5px #000000;
 }
 
 .article{text-align:justify;}

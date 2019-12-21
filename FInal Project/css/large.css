@@ -6,7 +6,9 @@
 }
 
 
-
+.tpMain{
+  grid-template-columns: 1fr 1fr  1fr;
+}
 div .scleft img{
     width:30%;
     padding:0;
