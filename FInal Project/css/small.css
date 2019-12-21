@@ -140,13 +140,13 @@ nav a:active{color: #a25c45;
 
 figure img{
   width:400px;
+
 }
 
 .close{
   padding:1rem;
-  display:flex;
+  display:grid;
   margin:1rem;
-  border: 1px solid #000000;
 }
 .close h2{
   text-align:left;
@@ -203,20 +203,34 @@ figure img{
   margin-right:auto;
   margin-left:auto;
 }
-.close :nth-child(1){   
+.close section:nth-child(1){   
     display:block;
+    border: 1px solid #000000;
+    margin: 0.5rem;
+
 }
 
-.close :nth-child(2){   
+.close section:nth-child(2){   
   display:block;
+  border: 1px solid #000000;
+  margin: 0.5rem;
+
+
 }
 
-.close :nth-child(3){   
+.close section:nth-child(3){   
   display:block;
+  border: 1px solid #000000;
+  margin: 0.5rem;
+
+
 }
 
-.close :nth-child(4){   
+.close section:nth-child(4){   
   display:block;
+  border: 1px solid #000000;
+  margin: 0.5rem;
+
 }
 
 footer {

@@ -14,6 +14,7 @@ fetch(requestURL)
                 let closures = document.createElement('section');
                 let h2 = document.createElement('h2');
                 let h3 = document.createElement('h3');
+                let h32 = document.createElement('h3');
                 let announced = document.createElement('p');
                 let groundbreaking = document.createElement('p');
                 let dedicated = document.createElement('p');
@@ -34,7 +35,8 @@ fetch(requestURL)
                 tel.textContent = 'Phone: ' + temples[i].tel;
                 h3.textContent = '2019';
                 thisYear.textContent =  temples[i].thisYear;
-                nextYear.textContent = '2020'
+                h32.textContent = '2020';
+                nextYear.textContent = temples[i].nextYear
 
                 info.appendChild(h2);
                 closures.appendChild(image)
@@ -45,19 +47,13 @@ fetch(requestURL)
                 info.appendChild(tel);
                 info.appendChild(h3);
                 info.appendChild(thisYear);
+                info.appendChild(h32);
                 info.appendChild(nextYear);
                 closures.appendChild(info); 
                 
                 document.querySelector('div.close').appendChild(closures);
 
-                const twenty = temples[i]['this2020'];
-                for (let j = 0; j < twenty.length; j++){
-                    let eachDate = document.createElement('p');
 
-                    eachDate.textContent = temples[i].nextYear[j];
-                    info.appendChild(eachDate);
-
-                }
             }
         }
     });

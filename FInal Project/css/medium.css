@@ -76,30 +76,34 @@ form label{
       }
 .close img{
         width: 500px;
+
 }
 
 .close :nth-child(1) img{
                 float:right;
-                margin-right:auto;
-                margin-left:auto;
+                width:30%;
+
 }
 
 .close :nth-child(2) img{
                 float:left;
-                margin-right:auto;
-                margin-left:auto;
+                width:30%;
+                height: 500px;
+                width:auto;
+
+
 }
 
 .close :nth-child(3) img{   
                 float:right;
-                margin-right:auto;
-                margin-left:auto;
+                width:30%;
+
 }
 
 .close :nth-child(4) img{   
                 float:left;
-                margin-right:auto;
-                margin-left:auto;
+                width:30%;
+
 }
 
 }
