@@ -60,7 +60,7 @@ nav ul  {display: flex;
 
       }
 
-button{
+.hero-cd div{
   background-color: #a25c45;
   color:#000000;
   border-radius: 1rem;
@@ -109,21 +109,34 @@ form #button:hover{
   color:#ffffff;
 }
 
-button:hover{
+.but{
+    background-color: #a25c45;
+    padding:1rem;
+    width:100px;
+    border-width: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+a{text-decoration: none;}
+
+.but:hover{
   background-color: #ffffff;
   color: #000000;
   border-color:#ffffff;
   box-shadow: 0px 0px 10px 5px #000000;
 }
 
-a button{text-decoration: none;}
+a .but{text-decoration: none;}
 
-a button  {
+a .but  {
   color:#ffffff;
   text-decoration: none;
 }
 
-a button :hover{
+a .but :hover{
   color: #000000;
 }
 
