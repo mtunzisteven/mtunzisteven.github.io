@@ -9,14 +9,44 @@
 .tpMain{
   grid-template-columns: 1fr 1fr 1fr;
 }
-div .scleft img{
-    width:30%;
-    padding:0;
-    margin-top:0;
-    margin-left:2rem;
-    height:auto;
 
+.close {
+  padding:1rem;
+  grid-template-columns: 1fr;
+  margin:1rem;
 }
 
+.close div:nth-child(1){
+  display:flex;
+  flex-direction:row;
+  width: 90%;
+  margin-left: 3%;
+}
+
+.close div:nth-child(2){
+  display:flex;
+  flex-direction:row-reverse;
+  width: 90%;
+  margin-left: 3%;
+}
+.close div:nth-child(3){
+              display:flex;
+              flex-direction:row;
+              width: 90%;
+              margin-left: 3%;
+        
+}
+
+.close div:nth-child(4){
+  display:flex;
+  flex-direction:row-reverse;
+  width: 90%;
+  margin-left: 3%;
+}
+
+.close div img{
+  width: 400px;
+  margin:1.5rem;
+}
 
 }

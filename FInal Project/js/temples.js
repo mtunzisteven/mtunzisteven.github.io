@@ -11,7 +11,6 @@ fetch(requestURL)
         
         for (let i = 0; i < temples.length;i++){
             if(temples[i].name == "Albuquerque New Mexico Temple" || temples[i].name == "Accra Ghana Temple"|| temples[i].name == "Arequipa Peru Temple" ||temples[i].name == "Boston Massachusetts Temple"){
-                let closures = document.createElement('section');
                 let h2 = document.createElement('h2');
                 let h3 = document.createElement('h3');
                 let h32 = document.createElement('h3');
@@ -24,6 +23,7 @@ fetch(requestURL)
                 let address = document.createElement('p');
                 let tel = document.createElement('p');
                 let info = document.createElement('span');
+                let diva = document.createElement('div');
             
 
                 h2.textContent = temples[i].name;
@@ -39,7 +39,7 @@ fetch(requestURL)
                 nextYear.textContent = temples[i].nextYear
 
                 info.appendChild(h2);
-                closures.appendChild(image)
+                diva.appendChild(image);
                 info.appendChild(announced);
                 info.appendChild(groundbreaking);
                 info.appendChild(dedicated);
@@ -49,9 +49,9 @@ fetch(requestURL)
                 info.appendChild(thisYear);
                 info.appendChild(h32);
                 info.appendChild(nextYear);
-                closures.appendChild(info); 
-                
-                document.querySelector('div.close').appendChild(closures);
+                diva.appendChild(info);
+               
+                document.querySelector('div.close').appendChild(diva);
 
 
             }

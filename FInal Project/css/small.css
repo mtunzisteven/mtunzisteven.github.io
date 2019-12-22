@@ -143,11 +143,6 @@ figure img{
 
 }
 
-.close{
-  padding:1rem;
-  display:grid;
-  margin:1rem;
-}
 .close h2{
   text-align:left;
   padding-left: 1%;
@@ -161,76 +156,33 @@ figure img{
 }
 
 .close img{
-  display:block;
-  max-width: 100%;
+  width: 100%;
   height:auto;
-  margin-left: auto;
-  margin-right:auto;
 
 }
 
 .close p{
   text-align:left;
   font-size:16px;
-  width: 400px;
+  width: 100%;
 
   padding-left: 1%;
   padding-right:1%;
 
 }
 
-
-.close :nth-child(1) img{
-  float:none;
-  margin-right:auto;
-  margin-left:auto;
-  }
-  
-.close :nth-child(2) img{
-  float:none;
-  margin-right:auto;
-  margin-left:auto;
+.close {   
+  display:grid;
+  grid-template-columns: 1fr;
+  padding: 2rem;
+  margin: 2rem;
+  border-right: 15px;
 }
 
-.close :nth-child(3) img{   
-  float:none;
-  margin-right:auto;
-  margin-left:auto;
-}
-
-.close :nth-child(4) img{   
-  float:none;
-  margin-right:auto;
-  margin-left:auto;
-}
-.close section:nth-child(1){   
-    display:block;
-    border: 1px solid #000000;
-    margin: 0.5rem;
-
-}
-
-.close section:nth-child(2){   
-  display:block;
-  border: 1px solid #000000;
-  margin: 0.5rem;
-
-
-}
-
-.close section:nth-child(3){   
-  display:block;
-  border: 1px solid #000000;
-  margin: 0.5rem;
-
-
-}
-
-.close section:nth-child(4){   
-  display:block;
-  border: 1px solid #000000;
-  margin: 0.5rem;
-
+.close div{
+  box-shadow: 0 0 10px 2px #000000;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 footer {

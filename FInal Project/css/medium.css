@@ -1,4 +1,4 @@
-@media only screen and (min-width: 41em){
+@media only screen and (min-width: 37.2em){
 
 
 .navigation li:first-child{display:none;}
@@ -54,7 +54,7 @@ form label{
 
 .sub{
         position:absolute;
-        width:13rem;
+        width:16%;
 }
 
 .sub li:first-child {
@@ -74,36 +74,15 @@ form label{
         background-color:#a25c45;
       
       }
+
+.close{
+        grid-template-columns: 1fr 1fr;
+}
+
 .close img{
-        width: 500px;
+        width: 100%;
 
 }
 
-.close :nth-child(1) img{
-                float:right;
-                width:30%;
-
-}
-
-.close :nth-child(2) img{
-                float:left;
-                width:30%;
-                height: 500px;
-                width:auto;
-
-
-}
-
-.close :nth-child(3) img{   
-                float:right;
-                width:30%;
-
-}
-
-.close :nth-child(4) img{   
-                float:left;
-                width:30%;
-
-}
 
 }
